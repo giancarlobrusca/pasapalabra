@@ -38,5 +38,8 @@ Producción: https://pasapalabra-psi.vercel.app (Vercel, team giancarlo-bruscas-
 
 ## Banco de preguntas
 
-`src/data/bank.json`: `{ id, letter, type: "empieza" | "contiene", answer, alt[], definition, difficulty: "facil" | "media" | "dificil" }`.
+605 preguntas (mínimo 21 por letra) en 9 categorías: cine, música, deportes, geografía, comida, ciencia, historia, naturaleza y general.
+Hasta 6 jugadores. Las preguntas usadas se guardan en un historial (`localStorage`) para no repetirlas entre partidas; cuando una letra se agota, su ciclo se reinicia. Botón «Reiniciar historial» en la configuración.
+
+`src/data/bank.json`: `{ id, letter, type: "empieza" | "contiene", answer, alt[], definition, difficulty: "facil" | "media" | "dificil", category }`.
 El mismo formato sirve para importar/exportar preguntas propias desde el editor.
