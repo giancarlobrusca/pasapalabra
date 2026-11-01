@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "questions": [
   {
    "id": "A-abeja",
@@ -8,7 +8,8 @@
    "answer": "abeja",
    "alt": [],
    "definition": "Insecto volador que fabrica miel y cera.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "A-avion",
@@ -17,7 +18,8 @@
    "answer": "avión",
    "alt": [],
    "definition": "Vehículo con alas y motores que vuela llevando pasajeros.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "general"
   },
   {
    "id": "A-aguila",
@@ -26,7 +28,8 @@
    "answer": "águila",
    "alt": [],
    "definition": "Ave rapaz de gran tamaño y vista muy aguda, presente en muchos escudos nacionales.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "naturaleza"
   },
   {
    "id": "A-arpa",
@@ -35,7 +38,8 @@
    "answer": "arpa",
    "alt": [],
    "definition": "Instrumento musical de cuerdas, de forma triangular, que se toca pulsando con los dedos.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "musica"
   },
   {
    "id": "A-asteroide",
@@ -43,8 +47,9 @@
    "type": "empieza",
    "answer": "asteroide",
    "alt": [],
-   "definition": "Cuerpo rocoso más chico que un planeta que gira alrededor del Sol; muchos están entre Marte y Júpiter.",
-   "difficulty": "dificil"
+   "definition": "Cuerpo rocoso más chico que un planeta que gira alrededor del Sol; muchos forman un cinturón.",
+   "difficulty": "dificil",
+   "category": "ciencia"
   },
   {
    "id": "A-archipielago",
@@ -53,7 +58,192 @@
    "answer": "archipiélago",
    "alt": [],
    "definition": "Conjunto de islas cercanas entre sí.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "geografia"
+  },
+  {
+   "id": "A-aladdin",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "Aladdín",
+   "alt": [
+    "aladin",
+    "aladino"
+   ],
+   "definition": "Joven de Agrabah que encuentra una lámpara con un genio, en un clásico de Disney de 1992.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "A-avatar",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "Avatar",
+   "alt": [],
+   "definition": "Película de 2009 ambientada en el planeta Pandora, habitado por los na'vi, seres altos y azules.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "A-argentina",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "Argentina, 1985",
+   "alt": [
+    "argentina 1985"
+   ],
+   "definition": "Película de 2022 de Santiago Mitre sobre el Juicio a las Juntas militares, nominada al Oscar.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "A-almodovar",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "Almodóvar",
+   "alt": [],
+   "definition": "Apellido de Pedro, director español de «Todo sobre mi madre».",
+   "difficulty": "dificil",
+   "category": "cine"
+  },
+  {
+   "id": "A-adele",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "Adele",
+   "alt": [],
+   "definition": "Nombre artístico de la cantante británica de «Hello» y «Someone Like You».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "A-acordeon",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "acordeón",
+   "alt": [],
+   "definition": "Instrumento de fuelle con teclado o botones, infaltable en el chamamé.",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "A-abba",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "ABBA",
+   "alt": [],
+   "definition": "Grupo sueco de los años 70 famoso por «Dancing Queen» y «Mamma Mia».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "A-aria",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "aria",
+   "alt": [],
+   "definition": "Pieza de ópera cantada por una sola voz con acompañamiento de orquesta.",
+   "difficulty": "dificil",
+   "category": "musica"
+  },
+  {
+   "id": "A-atletismo",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "atletismo",
+   "alt": [],
+   "definition": "Deporte olímpico que reúne carreras, saltos y lanzamientos.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "A-aguero",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "Agüero",
+   "alt": [
+    "kun aguero"
+   ],
+   "definition": "Apellido del «Kun» Sergio, máximo goleador de la historia del Manchester City.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "A-arbitro",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "árbitro",
+   "alt": [
+    "referi"
+   ],
+   "definition": "Persona que hace cumplir el reglamento durante un partido.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "A-andes",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "Andes",
+   "alt": [
+    "los andes",
+    "cordillera de los andes"
+   ],
+   "definition": "Cordillera que recorre todo el oeste de América del Sur.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "A-aconcagua",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "Aconcagua",
+   "alt": [],
+   "definition": "Montaña más alta de América, ubicada en Mendoza.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "A-alfajor",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "alfajor",
+   "alt": [
+    "alfajores"
+   ],
+   "definition": "Golosina de dos tapitas unidas con dulce de leche, a veces bañada en chocolate.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "A-asado",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "asado",
+   "alt": [],
+   "definition": "Comida típica argentina de carne cocinada a la parrilla.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "A-armstrong",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "Armstrong",
+   "alt": [],
+   "definition": "Apellido de Neil, el primer ser humano en pisar la Luna, en 1969.",
+   "difficulty": "media",
+   "category": "historia"
+  },
+  {
+   "id": "A-atomo",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "átomo",
+   "alt": [],
+   "definition": "Partícula más pequeña de un elemento químico que conserva sus propiedades.",
+   "difficulty": "dificil",
+   "category": "ciencia"
   },
   {
    "id": "B-bicicleta",
@@ -62,7 +252,8 @@
    "answer": "bicicleta",
    "alt": [],
    "definition": "Vehículo de dos ruedas que se mueve pedaleando.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "general"
   },
   {
    "id": "B-ballena",
@@ -71,7 +262,8 @@
    "answer": "ballena",
    "alt": [],
    "definition": "Enorme mamífero marino; una de sus especies, la azul, es el animal más grande que existe.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "B-bañera",
@@ -80,7 +272,8 @@
    "answer": "bañera",
    "alt": [],
    "definition": "Recipiente grande del baño que se llena de agua para bañarse sumergido.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "general"
   },
   {
    "id": "B-buho",
@@ -89,7 +282,8 @@
    "answer": "búho",
    "alt": [],
    "definition": "Ave nocturna de ojos grandes que puede girar mucho la cabeza.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "naturaleza"
   },
   {
    "id": "B-biologia",
@@ -98,7 +292,8 @@
    "answer": "biología",
    "alt": [],
    "definition": "Ciencia que estudia los seres vivos.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "ciencia"
   },
   {
    "id": "B-barometro",
@@ -107,7 +302,201 @@
    "answer": "barómetro",
    "alt": [],
    "definition": "Instrumento que sirve para medir la presión atmosférica.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "ciencia"
+  },
+  {
+   "id": "B-bambi",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "Bambi",
+   "alt": [],
+   "definition": "Cervatillo protagonista de un clásico de Disney de 1942.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "B-baloo",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "Baloo",
+   "alt": [
+    "balu"
+   ],
+   "definition": "Oso bonachón amigo de Mowgli en «El libro de la selva».",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "B-banderas",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "Banderas",
+   "alt": [],
+   "definition": "Apellido de Antonio, actor español nacido en Málaga, protagonista de «Dolor y gloria».",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "B-batman",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "Batman",
+   "alt": [],
+   "definition": "Superhéroe de Ciudad Gótica, el Hombre Murciélago.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "B-bemberg",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "Bemberg",
+   "alt": [],
+   "definition": "Apellido de María Luisa, directora argentina de «Camila», película nominada al Oscar.",
+   "difficulty": "dificil",
+   "category": "cine"
+  },
+  {
+   "id": "B-beatles",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "Beatles",
+   "alt": [
+    "the beatles",
+    "los beatles"
+   ],
+   "definition": "Banda de Liverpool formada por John, Paul, George y Ringo.",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "B-bandoneon",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "bandoneón",
+   "alt": [],
+   "definition": "Instrumento de fuelle que es el alma del tango.",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "B-beethoven",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "Beethoven",
+   "alt": [],
+   "definition": "Apellido del compositor alemán que siguió componiendo aunque se quedó sordo.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "B-bajo",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "bajo",
+   "alt": [
+    "bajo electrico"
+   ],
+   "definition": "Instrumento de cuerdas graves, en general de cuatro cuerdas, que acompaña a la batería en una banda.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "B-bolero",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "bolero",
+   "alt": [],
+   "definition": "Género de canción romántica de raíz cubana; «Bésame mucho» es uno de los más famosos.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "B-bateria",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "batería",
+   "alt": [],
+   "definition": "Conjunto de tambores y platillos que toca un solo músico en una banda.",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "B-basquet",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "básquet",
+   "alt": [
+    "basquetbol",
+    "baloncesto",
+    "basket"
+   ],
+   "definition": "Deporte en el que se encesta una pelota naranja en un aro.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "B-boca",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "Boca",
+   "alt": [
+    "boca juniors"
+   ],
+   "definition": "Club de fútbol xeneize, cuyo estadio es La Bombonera.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "B-bogota",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "Bogotá",
+   "alt": [],
+   "definition": "Capital de Colombia.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "B-brasilia",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "Brasilia",
+   "alt": [],
+   "definition": "Capital de Brasil.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "B-banana",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "banana",
+   "alt": [],
+   "definition": "Fruta alargada y amarilla que se pela antes de comerla.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "B-belgrano",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "Belgrano",
+   "alt": [],
+   "definition": "Apellido de Manuel, creador de la bandera argentina.",
+   "difficulty": "facil",
+   "category": "historia"
+  },
+  {
+   "id": "B-bacteria",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "bacteria",
+   "alt": [],
+   "definition": "Microorganismo de una sola célula y sin núcleo; algunos son útiles y otros causan enfermedades.",
+   "difficulty": "dificil",
+   "category": "ciencia"
   },
   {
    "id": "C-conejo",
@@ -116,7 +505,8 @@
    "answer": "conejo",
    "alt": [],
    "definition": "Animal de orejas largas que se mueve dando saltos.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "C-cafe",
@@ -125,7 +515,8 @@
    "answer": "café",
    "alt": [],
    "definition": "Bebida caliente y oscura que se prepara con granos tostados y molidos.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "comida"
   },
   {
    "id": "C-corazon",
@@ -134,7 +525,8 @@
    "answer": "corazón",
    "alt": [],
    "definition": "Órgano que bombea la sangre por todo el cuerpo.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "ciencia"
   },
   {
    "id": "C-condor",
@@ -143,7 +535,8 @@
    "answer": "cóndor",
    "alt": [],
    "definition": "Ave de los Andes, una de las aves voladoras más grandes del mundo.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "naturaleza"
   },
   {
    "id": "C-camaleon",
@@ -152,7 +545,8 @@
    "answer": "camaleón",
    "alt": [],
    "definition": "Reptil que cambia de color para camuflarse y mueve cada ojo por separado.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "naturaleza"
   },
   {
    "id": "C-caracas",
@@ -161,7 +555,8 @@
    "answer": "Caracas",
    "alt": [],
    "definition": "Capital de Venezuela.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "geografia"
   },
   {
    "id": "C-cubo",
@@ -170,7 +565,8 @@
    "answer": "cubo",
    "alt": [],
    "definition": "Cuerpo geométrico con seis caras cuadradas iguales.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "ciencia"
   },
   {
    "id": "C-catalizador",
@@ -179,7 +575,180 @@
    "answer": "catalizador",
    "alt": [],
    "definition": "Sustancia que acelera una reacción química sin consumirse en ella.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "ciencia"
+  },
+  {
+   "id": "C-chaplin",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "Chaplin",
+   "alt": [],
+   "definition": "Apellido de Charles, actor y director de «Tiempos modernos», creador del vagabundo Charlot.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "C-coco",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "Coco",
+   "alt": [],
+   "definition": "Película de Pixar de 2017 sobre Miguel, un niño que sueña con ser músico, y el Día de Muertos.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "C-cenicienta",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "Cenicienta",
+   "alt": [],
+   "definition": "Princesa que pierde un zapatito de cristal a la medianoche.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "C-cameron",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "Cameron",
+   "alt": [],
+   "definition": "Apellido de James, director de «Terminator» y «Avatar».",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "C-cars",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "Cars",
+   "alt": [],
+   "definition": "Película de Pixar de 2006 sobre autos que hablan, con el corredor número 95.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "C-cerati",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "Cerati",
+   "alt": [],
+   "definition": "Apellido de Gustavo, cantante y guitarrista, autor de «Crimen» y «Puente».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "C-cumbia",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "cumbia",
+   "alt": [],
+   "definition": "Género musical de origen colombiano que no falta en ninguna fiesta argentina.",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "C-chamame",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "chamamé",
+   "alt": [],
+   "definition": "Género musical folklórico del litoral argentino, con acordeón.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "C-charango",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "charango",
+   "alt": [],
+   "definition": "Pequeño instrumento de cuerdas andino cuya caja antes se hacía con el caparazón de un quirquincho.",
+   "difficulty": "dificil",
+   "category": "musica"
+  },
+  {
+   "id": "C-coldplay",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "Coldplay",
+   "alt": [],
+   "definition": "Banda británica liderada por Chris Martin, de «Yellow» y «Viva la vida».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "C-ciclismo",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "ciclismo",
+   "alt": [],
+   "definition": "Deporte que se practica en bicicleta.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "C-cordoba",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "Córdoba",
+   "alt": [],
+   "definition": "Provincia argentina cuya capital es la segunda ciudad más poblada del país.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "C-chocolate",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "chocolate",
+   "alt": [],
+   "definition": "Dulce que se elabora con cacao.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "C-choripan",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "choripán",
+   "alt": [
+    "chori"
+   ],
+   "definition": "Sándwich de chorizo, clásico del asado y de la cancha.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "C-colon",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "Colón",
+   "alt": [],
+   "definition": "Apellido de Cristóbal, el navegante que llegó a América en 1492.",
+   "difficulty": "facil",
+   "category": "historia"
+  },
+  {
+   "id": "C-celula",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "célula",
+   "alt": [],
+   "definition": "Unidad más pequeña de un ser vivo.",
+   "difficulty": "media",
+   "category": "ciencia"
+  },
+  {
+   "id": "C-cactus",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "cactus",
+   "alt": [],
+   "definition": "Planta del desierto con espinas que almacena agua.",
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "D-delfin",
@@ -188,7 +757,8 @@
    "answer": "delfín",
    "alt": [],
    "definition": "Mamífero marino muy inteligente que salta fuera del agua y se comunica con silbidos.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "D-dinosaurio",
@@ -197,7 +767,8 @@
    "answer": "dinosaurio",
    "alt": [],
    "definition": "Reptil, muchas veces gigantesco, que se extinguió hace unos 66 millones de años.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "ciencia"
   },
   {
    "id": "D-diccionario",
@@ -206,7 +777,8 @@
    "answer": "diccionario",
    "alt": [],
    "definition": "Libro que reúne las palabras de un idioma ordenadas alfabéticamente con su significado.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "general"
   },
   {
    "id": "D-domino",
@@ -215,7 +787,8 @@
    "answer": "dominó",
    "alt": [],
    "definition": "Juego de mesa con fichas rectangulares marcadas con puntos.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "general"
   },
   {
    "id": "D-decada",
@@ -224,7 +797,8 @@
    "answer": "década",
    "alt": [],
    "definition": "Período de diez años.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "general"
   },
   {
    "id": "D-dique",
@@ -233,7 +807,187 @@
    "answer": "dique",
    "alt": [],
    "definition": "Muro construido para contener o encauzar el agua.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "general"
+  },
+  {
+   "id": "D-darin",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "Darín",
+   "alt": [],
+   "definition": "Apellido de Ricardo, actor argentino de «Relatos salvajes» y «Un cuento chino».",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "D-disney",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "Disney",
+   "alt": [],
+   "definition": "Apellido de Walt, fundador del estudio de animación más famoso del mundo.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "D-dory",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "Dory",
+   "alt": [],
+   "definition": "Pez cirujano azul y olvidadizo de Pixar que siempre «sigue nadando».",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "D-dumbo",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "Dumbo",
+   "alt": [],
+   "definition": "Elefantito de orejas gigantes que aprende a volar, en un clásico de Disney de 1941.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "D-dicaprio",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "DiCaprio",
+   "alt": [
+    "di caprio"
+   ],
+   "definition": "Apellido de Leonardo, actor que ganó el Oscar por «El renacido».",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "D-do",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "do",
+   "alt": [],
+   "definition": "Primera nota de la escala musical.",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "D-duki",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "Duki",
+   "alt": [],
+   "definition": "Nombre artístico del trapero argentino Mauro Lombardo.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "D-duo",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "dúo",
+   "alt": [],
+   "definition": "Conjunto de dos músicos o cantantes.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "D-disco",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "disco",
+   "alt": [
+    "musica disco"
+   ],
+   "definition": "Género bailable de los años 70, el de los Bee Gees en «Fiebre de sábado por la noche».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "D-dylan",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "Dylan",
+   "alt": [],
+   "definition": "Apellido de Bob, autor de «Blowin' in the Wind» y Premio Nobel de Literatura 2016.",
+   "difficulty": "dificil",
+   "category": "musica"
+  },
+  {
+   "id": "D-dimaria",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "Di María",
+   "alt": [
+    "dimaria",
+    "fideo"
+   ],
+   "definition": "Apellido de Ángel, que hizo goles en la final de la Copa América 2021 y en la del Mundial 2022.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "D-dardos",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "dardos",
+   "alt": [
+    "dardo"
+   ],
+   "definition": "Juego de lanzar pequeñas flechas a un tablero redondo.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "D-desierto",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "desierto",
+   "alt": [],
+   "definition": "Región muy seca donde casi no llueve, como el de Atacama.",
+   "difficulty": "facil",
+   "category": "geografia"
+  },
+  {
+   "id": "D-dulcedeleche",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "dulce de leche",
+   "alt": [],
+   "definition": "Dulce típico argentino que se hace cocinando leche con azúcar.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "D-durazno",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "durazno",
+   "alt": [],
+   "definition": "Fruta de piel aterciopelada y carozo grande, también llamada melocotón.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "D-democracia",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "democracia",
+   "alt": [],
+   "definition": "Sistema de gobierno en el que el pueblo elige a sus gobernantes.",
+   "difficulty": "media",
+   "category": "historia"
+  },
+  {
+   "id": "D-diente",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "diente",
+   "alt": [],
+   "definition": "Pieza dura de la boca que sirve para morder y masticar.",
+   "difficulty": "facil",
+   "category": "ciencia"
   },
   {
    "id": "E-elefante",
@@ -242,7 +996,8 @@
    "answer": "elefante",
    "alt": [],
    "definition": "Mamífero terrestre más grande, con trompa y colmillos.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "E-escalera",
@@ -251,7 +1006,8 @@
    "answer": "escalera",
    "alt": [],
    "definition": "Serie de escalones que sirve para subir o bajar.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "general"
   },
   {
    "id": "E-escritor",
@@ -260,7 +1016,8 @@
    "answer": "escritor",
    "alt": [],
    "definition": "Persona que escribe libros, cuentos o novelas.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "general"
   },
   {
    "id": "E-ecuador",
@@ -269,7 +1026,8 @@
    "answer": "ecuador",
    "alt": [],
    "definition": "Línea imaginaria que divide la Tierra en hemisferio norte y hemisferio sur.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "geografia"
   },
   {
    "id": "E-eco",
@@ -277,8 +1035,9 @@
    "type": "empieza",
    "answer": "eco",
    "alt": [],
-   "definition": "Repetición de un sonido que rebota en una superficie, como en una montaña.",
-   "difficulty": "media"
+   "definition": "Repetición de un sonido que rebota contra una pared o un cerro.",
+   "difficulty": "media",
+   "category": "ciencia"
   },
   {
    "id": "E-eclipse",
@@ -286,8 +1045,194 @@
    "type": "empieza",
    "answer": "eclipse",
    "alt": [],
-   "definition": "Fenómeno en el que un astro tapa total o parcialmente a otro, como la Luna al Sol.",
-   "difficulty": "dificil"
+   "definition": "Fenómeno en el que un astro tapa total o parcialmente a otro.",
+   "difficulty": "dificil",
+   "category": "ciencia"
+  },
+  {
+   "id": "E-et",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "E.T.",
+   "alt": [
+    "et",
+    "el extraterrestre"
+   ],
+   "definition": "Película de 1982 sobre un extraterrestre que quiere volver a su casa.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "E-elsecretodesusojos",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "El secreto de sus ojos",
+   "alt": [],
+   "definition": "Película argentina de Juan José Campanella que ganó el Oscar en 2010.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "E-elsa",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "Elsa",
+   "alt": [],
+   "definition": "Reina de Arendelle con poderes de hielo, hermana de Anna.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "E-eastwood",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "Eastwood",
+   "alt": [],
+   "definition": "Apellido de Clint, actor de westerns y director de «Million Dollar Baby».",
+   "difficulty": "dificil",
+   "category": "cine"
+  },
+  {
+   "id": "E-escena",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "escena",
+   "alt": [],
+   "definition": "Cada una de las partes en que se divide una película o una obra de teatro.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "E-estefan",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "Estefan",
+   "alt": [],
+   "definition": "Apellido de Gloria, cantante cubana de «Conga».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "E-eminem",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "Eminem",
+   "alt": [],
+   "definition": "Nombre artístico del rapero estadounidense de «Lose Yourself».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "E-escenario",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "escenario",
+   "alt": [],
+   "definition": "Lugar elevado de un teatro donde actúan los artistas.",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "E-elvis",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "Elvis",
+   "alt": [],
+   "definition": "Nombre de pila del «Rey del Rock», intérprete de «Jailhouse Rock».",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "E-estribillo",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "estribillo",
+   "alt": [],
+   "definition": "Parte de una canción que se repite varias veces.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "E-esgrima",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "esgrima",
+   "alt": [],
+   "definition": "Deporte de combate con florete, espada o sable.",
+   "difficulty": "dificil",
+   "category": "deportes"
+  },
+  {
+   "id": "E-empate",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "empate",
+   "alt": [],
+   "definition": "Resultado de un partido en el que los dos equipos terminan igualados.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "E-egipto",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "Egipto",
+   "alt": [],
+   "definition": "País africano cuya capital es El Cairo.",
+   "difficulty": "facil",
+   "category": "geografia"
+  },
+  {
+   "id": "E-everest",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "Everest",
+   "alt": [],
+   "definition": "Montaña más alta del mundo, en la frontera entre Nepal y China.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "E-empanada",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "empanada",
+   "alt": [
+    "empanadas"
+   ],
+   "definition": "Masa rellena de carne u otros ingredientes, cerrada con repulgue.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "E-ensalada",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "ensalada",
+   "alt": [],
+   "definition": "Plato frío de verduras cortadas y aliñadas.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "E-einstein",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "Einstein",
+   "alt": [],
+   "definition": "Apellido del físico autor de la teoría de la relatividad.",
+   "difficulty": "media",
+   "category": "ciencia"
+  },
+  {
+   "id": "E-esqueleto",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "esqueleto",
+   "alt": [],
+   "definition": "Conjunto de los huesos del cuerpo.",
+   "difficulty": "facil",
+   "category": "ciencia"
   },
   {
    "id": "F-frutilla",
@@ -298,7 +1243,8 @@
     "fresa"
    ],
    "definition": "Fruta roja y chiquita con las semillas por fuera.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "comida"
   },
   {
    "id": "F-futbol",
@@ -307,7 +1253,8 @@
    "answer": "fútbol",
    "alt": [],
    "definition": "Deporte en el que dos equipos de once jugadores intentan meter una pelota en el arco rival.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "deportes"
   },
   {
    "id": "F-faro",
@@ -316,7 +1263,8 @@
    "answer": "faro",
    "alt": [],
    "definition": "Torre junto al mar con una luz potente que guía a los barcos de noche.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "general"
   },
   {
    "id": "F-flamenco",
@@ -325,7 +1273,8 @@
    "answer": "flamenco",
    "alt": [],
    "definition": "Ave rosada de patas muy largas que suele pararse en una sola.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "naturaleza"
   },
   {
    "id": "F-fosil",
@@ -334,7 +1283,201 @@
    "answer": "fósil",
    "alt": [],
    "definition": "Resto de un ser vivo muy antiguo que quedó conservado en una roca.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "ciencia"
+  },
+  {
+   "id": "F-frozen",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "Frozen",
+   "alt": [],
+   "definition": "Película de Disney de 2013 con la canción «Libre soy».",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "F-ford",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "Ford",
+   "alt": [],
+   "definition": "Apellido de Harrison, actor que interpretó a Han Solo.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "F-fotograma",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "fotograma",
+   "alt": [],
+   "definition": "Cada una de las imágenes fijas que, una tras otra, forman una película.",
+   "difficulty": "dificil",
+   "category": "cine"
+  },
+  {
+   "id": "F-francella",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "Francella",
+   "alt": [],
+   "definition": "Apellido de Guillermo, actor argentino de «El secreto de sus ojos» y «Mi obra maestra».",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "F-forrest",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "Forrest",
+   "alt": [
+    "forrest gump"
+   ],
+   "definition": "Nombre del personaje de Tom Hanks que corre por todo Estados Unidos en una película de 1994.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "F-flauta",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "flauta",
+   "alt": [],
+   "definition": "Instrumento de viento con agujeros que se toca soplando.",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "F-folklore",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "folklore",
+   "alt": [
+    "folclore",
+    "folclor",
+    "folklor"
+   ],
+   "definition": "Música tradicional de un pueblo; en la Argentina incluye zambas y chacareras.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "F-freddie",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "Freddie",
+   "alt": [
+    "freddy",
+    "fredy"
+   ],
+   "definition": "Nombre de pila de Mercury, el cantante de «Bohemian Rhapsody».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "F-fito",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "Fito",
+   "alt": [
+    "fito paez"
+   ],
+   "definition": "Nombre artístico del músico rosarino autor de «Mariposa Tecknicolor».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "F-fa",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "fa",
+   "alt": [],
+   "definition": "Nota musical que está entre el mi y el sol.",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "F-fangio",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "Fangio",
+   "alt": [],
+   "definition": "Apellido de Juan Manuel, cinco veces campeón del mundo de Fórmula 1.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "F-final",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "final",
+   "alt": [],
+   "definition": "Último partido de un torneo, el que define al campeón.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "F-francia",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "Francia",
+   "alt": [],
+   "definition": "País europeo de la Torre Eiffel.",
+   "difficulty": "facil",
+   "category": "geografia"
+  },
+  {
+   "id": "F-fiordo",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "fiordo",
+   "alt": [],
+   "definition": "Brazo de mar largo y estrecho entre montañas escarpadas, típico de los países nórdicos.",
+   "difficulty": "dificil",
+   "category": "geografia"
+  },
+  {
+   "id": "F-fideos",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "fideos",
+   "alt": [
+    "fideo"
+   ],
+   "definition": "Pasta seca en forma de tiras largas que se hierve.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "F-flan",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "flan",
+   "alt": [],
+   "definition": "Postre de huevo, leche y azúcar con caramelo, ideal con dulce de leche.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "F-fotosintesis",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "fotosíntesis",
+   "alt": [],
+   "definition": "Proceso con el que las plantas usan la luz del sol para fabricar su alimento.",
+   "difficulty": "dificil",
+   "category": "ciencia"
+  },
+  {
+   "id": "F-faraon",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "faraón",
+   "alt": [],
+   "definition": "Rey del antiguo Egipto.",
+   "difficulty": "media",
+   "category": "historia"
   },
   {
    "id": "G-gato",
@@ -343,7 +1486,8 @@
    "answer": "gato",
    "alt": [],
    "definition": "Felino doméstico que maúlla.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "G-gallina",
@@ -351,8 +1495,9 @@
    "type": "empieza",
    "answer": "gallina",
    "alt": [],
-   "definition": "Ave de granja que pone huevos.",
-   "difficulty": "facil"
+   "definition": "Ave de granja que cacarea.",
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "G-guitarra",
@@ -361,7 +1506,8 @@
    "answer": "guitarra",
    "alt": [],
    "definition": "Instrumento musical de seis cuerdas que se toca rasgueando o punteando.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "musica"
   },
   {
    "id": "G-glaciar",
@@ -370,7 +1516,8 @@
    "answer": "glaciar",
    "alt": [],
    "definition": "Gran masa de hielo que se desplaza lentamente por una montaña, como el Perito Moreno.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "geografia"
   },
   {
    "id": "G-geografia",
@@ -379,7 +1526,8 @@
    "answer": "geografía",
    "alt": [],
    "definition": "Ciencia que estudia la superficie de la Tierra, sus regiones, ríos y montañas.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "geografia"
   },
   {
    "id": "G-gravedad",
@@ -388,7 +1536,184 @@
    "answer": "gravedad",
    "alt": [],
    "definition": "Fuerza que atrae los cuerpos hacia el centro de la Tierra.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "ciencia"
+  },
+  {
+   "id": "G-godzilla",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "Godzilla",
+   "alt": [],
+   "definition": "Monstruo gigante japonés parecido a un dinosaurio, nacido en el cine en 1954.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "G-gru",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "Gru",
+   "alt": [],
+   "definition": "Villano calvo que adopta a tres nenas en «Mi villano favorito».",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "G-gladiador",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "Gladiador",
+   "alt": [],
+   "definition": "Película de Ridley Scott del año 2000 en la que Russell Crowe es Máximo.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "G-gandalf",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "Gandalf",
+   "alt": [],
+   "definition": "Mago de barba gris en «El Señor de los Anillos».",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "G-gardel",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "Gardel",
+   "alt": [],
+   "definition": "Apellido de Carlos, el «Zorzal criollo», voz de «Mi Buenos Aires querido».",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "G-garcia",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "García",
+   "alt": [],
+   "definition": "Apellido de Charly, autor de «Los dinosaurios» e integrante de Sui Generis.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "G-gaita",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "gaita",
+   "alt": [],
+   "definition": "Instrumento de viento con una bolsa de aire, típico de Escocia y de Galicia.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "G-grammy",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "Grammy",
+   "alt": [
+    "grammys"
+   ],
+   "definition": "Premio más famoso de la música, cuya estatuilla tiene forma de gramófono.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "G-gol",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "gol",
+   "alt": [],
+   "definition": "Lo que se grita cuando la pelota entra en el arco.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "G-golf",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "golf",
+   "alt": [],
+   "definition": "Deporte en el que, con un palo, hay que embocar una pelotita en la menor cantidad de golpes.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "G-gimnasia",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "gimnasia",
+   "alt": [
+    "gimnasia artistica"
+   ],
+   "definition": "Deporte olímpico con ejercicios en barras, anillas y suelo.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "G-grecia",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "Grecia",
+   "alt": [],
+   "definition": "País europeo donde nacieron los Juegos Olímpicos.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "G-guiso",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "guiso",
+   "alt": [],
+   "definition": "Comida de olla con carne, verduras y legumbres cocidas juntas.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "G-garbanzo",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "garbanzo",
+   "alt": [
+    "garbanzos"
+   ],
+   "definition": "Legumbre redonda y amarillenta con la que se hace el hummus.",
+   "difficulty": "media",
+   "category": "comida"
+  },
+  {
+   "id": "G-gaucho",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "gaucho",
+   "alt": [],
+   "definition": "Hombre de campo de la llanura rioplatense, hábil jinete.",
+   "difficulty": "facil",
+   "category": "historia"
+  },
+  {
+   "id": "G-galaxia",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "galaxia",
+   "alt": [],
+   "definition": "Enorme conjunto de estrellas, como la Vía Láctea.",
+   "difficulty": "media",
+   "category": "ciencia"
+  },
+  {
+   "id": "G-gorila",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "gorila",
+   "alt": [],
+   "definition": "Primate más grande del mundo.",
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "H-hielo",
@@ -397,7 +1722,8 @@
    "answer": "hielo",
    "alt": [],
    "definition": "Agua congelada.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "ciencia"
   },
   {
    "id": "H-hormiga",
@@ -406,7 +1732,8 @@
    "answer": "hormiga",
    "alt": [],
    "definition": "Insecto pequeño que vive en colonias y es muy trabajador.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "H-hospital",
@@ -415,7 +1742,8 @@
    "answer": "hospital",
    "alt": [],
    "definition": "Lugar donde se atiende y se cura a los enfermos.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "general"
   },
   {
    "id": "H-hipopotamo",
@@ -424,7 +1752,8 @@
    "answer": "hipopótamo",
    "alt": [],
    "definition": "Mamífero africano enorme que pasa gran parte del día dentro del agua.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "naturaleza"
   },
   {
    "id": "H-hornero",
@@ -432,8 +1761,9 @@
    "type": "empieza",
    "answer": "hornero",
    "alt": [],
-   "definition": "Ave considerada símbolo de la Argentina, famosa por construir su nido de barro.",
-   "difficulty": "media"
+   "definition": "Ave considerada símbolo de la Argentina, que construye su casita de barro.",
+   "difficulty": "media",
+   "category": "naturaleza"
   },
   {
    "id": "H-hipotenusa",
@@ -442,7 +1772,194 @@
    "answer": "hipotenusa",
    "alt": [],
    "definition": "Lado más largo de un triángulo rectángulo, opuesto al ángulo recto.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "ciencia"
+  },
+  {
+   "id": "H-harry",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "Harry",
+   "alt": [],
+   "definition": "Nombre de pila del mago con una cicatriz en la frente, alumno de Hogwarts.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "H-hanks",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "Hanks",
+   "alt": [],
+   "definition": "Apellido de Tom, actor de «Forrest Gump» y voz original de Woody.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "H-hulk",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "Hulk",
+   "alt": [],
+   "definition": "Superhéroe enorme y verde de Marvel que aparece cuando Bruce Banner se enoja.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "H-hitchcock",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "Hitchcock",
+   "alt": [],
+   "definition": "Apellido de Alfred, el maestro del suspenso que dirigió «Psicosis».",
+   "difficulty": "dificil",
+   "category": "cine"
+  },
+  {
+   "id": "H-hermione",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "Hermione",
+   "alt": [],
+   "definition": "Amiga de Harry y Ron en Hogwarts, la más estudiosa de los tres.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "H-hollywood",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "Hollywood",
+   "alt": [],
+   "definition": "Barrio de Los Ángeles que es la capital del cine estadounidense.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "H-himno",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "himno",
+   "alt": [],
+   "definition": "Canción patriótica de un país.",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "H-hiphop",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "hip hop",
+   "alt": [
+    "hiphop"
+   ],
+   "definition": "Movimiento cultural nacido en el Bronx que incluye el rap, los DJ y el breakdance.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "H-hendrix",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "Hendrix",
+   "alt": [],
+   "definition": "Apellido de Jimi, guitarrista legendario que tocó en Woodstock en 1969.",
+   "difficulty": "dificil",
+   "category": "musica"
+  },
+  {
+   "id": "H-hockey",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "hockey",
+   "alt": [],
+   "definition": "Deporte que se juega con palo y bocha.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "H-hincha",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "hincha",
+   "alt": [],
+   "definition": "Seguidor apasionado de un club de fútbol.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "H-himalaya",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "Himalaya",
+   "alt": [],
+   "definition": "Cordillera asiática donde están las montañas más altas del mundo.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "H-habana",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "Habana",
+   "alt": [
+    "la habana"
+   ],
+   "definition": "La ___: capital de Cuba.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "H-helado",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "helado",
+   "alt": [],
+   "definition": "Postre frío y cremoso que se sirve en cucurucho.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "H-hamburguesa",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "hamburguesa",
+   "alt": [],
+   "definition": "Medallón de carne picada que se sirve en un pan redondo.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "H-huevo",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "huevo",
+   "alt": [],
+   "definition": "Alimento que ponen las gallinas.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "H-hercules",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "Hércules",
+   "alt": [
+    "heracles"
+   ],
+   "definition": "Héroe de la mitología griega famoso por su fuerza y sus doce trabajos.",
+   "difficulty": "media",
+   "category": "historia"
+  },
+  {
+   "id": "H-hueso",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "hueso",
+   "alt": [],
+   "definition": "Cada una de las piezas duras que forman el esqueleto.",
+   "difficulty": "facil",
+   "category": "ciencia"
   },
   {
    "id": "I-isla",
@@ -451,7 +1968,8 @@
    "answer": "isla",
    "alt": [],
    "definition": "Porción de tierra rodeada de agua por todas partes.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "geografia"
   },
   {
    "id": "I-iglesia",
@@ -460,7 +1978,8 @@
    "answer": "iglesia",
    "alt": [],
    "definition": "Templo cristiano donde se celebra misa.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "general"
   },
   {
    "id": "I-iguana",
@@ -469,7 +1988,8 @@
    "answer": "iguana",
    "alt": [],
    "definition": "Reptil americano parecido a un lagarto grande, con una cresta en el lomo.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "naturaleza"
   },
   {
    "id": "I-iglu",
@@ -477,8 +1997,9 @@
    "type": "empieza",
    "answer": "iglú",
    "alt": [],
-   "definition": "Casa con forma de cúpula hecha con bloques de hielo o nieve.",
-   "difficulty": "media"
+   "definition": "Casa con forma de cúpula hecha con bloques de hielo.",
+   "difficulty": "media",
+   "category": "general"
   },
   {
    "id": "I-iman",
@@ -487,7 +2008,8 @@
    "answer": "imán",
    "alt": [],
    "definition": "Objeto que atrae el hierro.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "ciencia"
   },
   {
    "id": "I-ironia",
@@ -496,7 +2018,196 @@
    "answer": "ironía",
    "alt": [],
    "definition": "Forma de expresarse que da a entender lo contrario de lo que se dice, a menudo en tono de burla.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "general"
+  },
+  {
+   "id": "I-intensamente",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "Intensamente",
+   "alt": [
+    "inside out",
+    "del reves"
+   ],
+   "definition": "Película de Pixar de 2015 sobre las emociones dentro de la cabeza de Riley.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "I-indiana",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "Indiana",
+   "alt": [
+    "indiana jones",
+    "indy"
+   ],
+   "definition": "Nombre del arqueólogo aventurero de sombrero y látigo interpretado por Harrison Ford.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "I-increibles",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "Increíbles",
+   "alt": [
+    "los increibles"
+   ],
+   "definition": "Los ___: familia de superhéroes de Pixar.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "I-ironman",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "Iron Man",
+   "alt": [
+    "ironman"
+   ],
+   "definition": "Superhéroe de Marvel con armadura, cuyo nombre real es Tony Stark.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "I-iglesias",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "Iglesias",
+   "alt": [],
+   "definition": "Apellido de Julio, cantante español de «Me olvidé de vivir» y padre de Enrique.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "I-interprete",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "intérprete",
+   "alt": [],
+   "definition": "Persona que canta o toca una obra musical.",
+   "difficulty": "dificil",
+   "category": "musica"
+  },
+  {
+   "id": "I-imagine",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "Imagine",
+   "alt": [],
+   "definition": "Canción de 1971 de un exintegrante de los Beatles que sueña con un mundo en paz.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "I-indio",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "Indio",
+   "alt": [
+    "indio solari"
+   ],
+   "definition": "Apodo de Carlos Solari, cantante de rock argentino.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "I-iguazu",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "Iguazú",
+   "alt": [
+    "cataratas del iguazu"
+   ],
+   "definition": "Cataratas de Misiones, una de las maravillas naturales del mundo.",
+   "difficulty": "facil",
+   "category": "geografia"
+  },
+  {
+   "id": "I-italia",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "Italia",
+   "alt": [],
+   "definition": "País europeo con forma de bota.",
+   "difficulty": "facil",
+   "category": "geografia"
+  },
+  {
+   "id": "I-india",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "India",
+   "alt": [],
+   "definition": "País asiático donde está el Taj Mahal.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "I-inglaterra",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "Inglaterra",
+   "alt": [],
+   "definition": "País del Reino Unido donde nació el fútbol moderno.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "I-ingrediente",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "ingrediente",
+   "alt": [
+    "ingredientes"
+   ],
+   "definition": "Cada uno de los productos que forman parte de una receta.",
+   "difficulty": "media",
+   "category": "comida"
+  },
+  {
+   "id": "I-independencia",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "independencia",
+   "alt": [],
+   "definition": "Lo que declaró la Argentina el 9 de julio de 1816.",
+   "difficulty": "facil",
+   "category": "historia"
+  },
+  {
+   "id": "I-inca",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "inca",
+   "alt": [
+    "incas"
+   ],
+   "definition": "Pueblo que formó un gran imperio andino con capital en Cusco.",
+   "difficulty": "media",
+   "category": "historia"
+  },
+  {
+   "id": "I-intestino",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "intestino",
+   "alt": [],
+   "definition": "Órgano largo del aparato digestivo que sigue al estómago.",
+   "difficulty": "media",
+   "category": "ciencia"
+  },
+  {
+   "id": "I-insecto",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "insecto",
+   "alt": [],
+   "definition": "Animal de seis patas, como la mosca o la mariposa.",
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "J-jirafa",
@@ -505,7 +2216,8 @@
    "answer": "jirafa",
    "alt": [],
    "definition": "Animal africano de cuello larguísimo.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "J-jardin",
@@ -514,7 +2226,8 @@
    "answer": "jardín",
    "alt": [],
    "definition": "Terreno con plantas y flores, muchas veces alrededor de una casa.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "general"
   },
   {
    "id": "J-jaguar",
@@ -523,7 +2236,8 @@
    "answer": "jaguar",
    "alt": [],
    "definition": "Felino manchado, el más grande del continente americano.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "naturaleza"
   },
   {
    "id": "J-jupiter",
@@ -532,7 +2246,8 @@
    "answer": "Júpiter",
    "alt": [],
    "definition": "Planeta más grande del sistema solar.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "ciencia"
   },
   {
    "id": "J-juez",
@@ -541,7 +2256,8 @@
    "answer": "juez",
    "alt": [],
    "definition": "Persona que en un tribunal decide y dicta sentencia.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "general"
   },
   {
    "id": "J-jeroglifico",
@@ -550,7 +2266,187 @@
    "answer": "jeroglífico",
    "alt": [],
    "definition": "Tipo de escritura con dibujos y símbolos que usaban los antiguos egipcios.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "historia"
+  },
+  {
+   "id": "J-jurassicpark",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "Jurassic Park",
+   "alt": [
+    "parque jurasico"
+   ],
+   "definition": "Película de 1993 sobre un parque con dinosaurios clonados (título original).",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "J-jack",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "Jack",
+   "alt": [],
+   "definition": "Nombre del personaje de Leonardo DiCaprio que dibuja a Rose a bordo de un barco.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "J-jedi",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "jedi",
+   "alt": [
+    "jedis"
+   ],
+   "definition": "Caballeros de «La guerra de las galaxias» que usan la Fuerza y espadas láser.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "J-joker",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "Joker",
+   "alt": [],
+   "definition": "Nombre en inglés del Guasón, el enemigo de Batman.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "J-jasmin",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "Jasmín",
+   "alt": [
+    "jasmine",
+    "yasmin"
+   ],
+   "definition": "Princesa de Agrabah que se enamora de Aladdín.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "J-jazz",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "jazz",
+   "alt": [],
+   "definition": "Género musical nacido en Nueva Orleans, con mucha improvisación.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "J-jackson",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "Jackson",
+   "alt": [],
+   "definition": "Apellido de Michael, el Rey del Pop, de «Thriller».",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "J-jagger",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "Jagger",
+   "alt": [],
+   "definition": "Apellido de Mick, cantante de «(I Can't Get No) Satisfaction».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "J-juanes",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "Juanes",
+   "alt": [],
+   "definition": "Cantante colombiano de «La camisa negra».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "J-judo",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "judo",
+   "alt": [
+    "yudo"
+   ],
+   "definition": "Arte marcial japonés de agarres y proyecciones.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "J-jabalina",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "jabalina",
+   "alt": [],
+   "definition": "Lanza que se arroja en atletismo.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "J-jordan",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "Jordan",
+   "alt": [],
+   "definition": "Apellido de Michael, leyenda del básquet de los Chicago Bulls.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "J-japon",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "Japón",
+   "alt": [],
+   "definition": "País asiático conocido como el país del sol naciente.",
+   "difficulty": "facil",
+   "category": "geografia"
+  },
+  {
+   "id": "J-jujuy",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "Jujuy",
+   "alt": [],
+   "definition": "Provincia argentina donde está la Quebrada de Humahuaca.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "J-jamon",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "jamón",
+   "alt": [],
+   "definition": "Pierna de cerdo curada o cocida que va con el queso en el sándwich.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "J-jugo",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "jugo",
+   "alt": [],
+   "definition": "Líquido que se obtiene al exprimir una fruta.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "J-julio",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "julio",
+   "alt": [],
+   "definition": "Mes en el que se celebra la Independencia argentina.",
+   "difficulty": "facil",
+   "category": "historia"
   },
   {
    "id": "L-luna",
@@ -559,7 +2455,8 @@
    "answer": "luna",
    "alt": [],
    "definition": "Satélite natural de la Tierra.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "ciencia"
   },
   {
    "id": "L-leon",
@@ -567,8 +2464,9 @@
    "type": "empieza",
    "answer": "león",
    "alt": [],
-   "definition": "Felino de melena al que se llama rey de la selva.",
-   "difficulty": "facil"
+   "definition": "Gran felino africano; los machos tienen melena.",
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "L-limon",
@@ -577,7 +2475,8 @@
    "answer": "limón",
    "alt": [],
    "definition": "Fruta cítrica amarilla y muy ácida.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "comida"
   },
   {
    "id": "L-lava",
@@ -585,8 +2484,9 @@
    "type": "empieza",
    "answer": "lava",
    "alt": [],
-   "definition": "Roca fundida que sale de un volcán en erupción.",
-   "difficulty": "media"
+   "definition": "Roca fundida y ardiente que sale de un cráter en erupción.",
+   "difficulty": "media",
+   "category": "geografia"
   },
   {
    "id": "L-llama",
@@ -595,7 +2495,8 @@
    "answer": "llama",
    "alt": [],
    "definition": "Animal de los Andes, pariente del camello pero sin joroba, usado para cargar.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "naturaleza"
   },
   {
    "id": "L-lira",
@@ -604,7 +2505,196 @@
    "answer": "lira",
    "alt": [],
    "definition": "Antiguo instrumento de cuerda con forma de U, asociado a la poesía de la Grecia clásica.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "musica"
+  },
+  {
+   "id": "L-lightyear",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "Lightyear",
+   "alt": [
+    "buzz lightyear"
+   ],
+   "definition": "Apellido del guardián espacial de juguete que dice «¡Al infinito y más allá!».",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "L-lumiere",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "Lumière",
+   "alt": [],
+   "definition": "Apellido de los hermanos franceses famosos por la primera proyección pública de cine, en París en 1895.",
+   "difficulty": "dificil",
+   "category": "cine"
+  },
+  {
+   "id": "L-lassie",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "Lassie",
+   "alt": [],
+   "definition": "Perra collie, heroína de películas y series.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "L-lilo",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "Lilo",
+   "alt": [],
+   "definition": "Nena hawaiana que adopta como mascota a un extraterrestre azul.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "L-lennon",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "Lennon",
+   "alt": [],
+   "definition": "Apellido de John, uno de los Beatles.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "L-letra",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "letra",
+   "alt": [],
+   "definition": "Las palabras de una canción.",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "L-lali",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "Lali",
+   "alt": [],
+   "definition": "Nombre artístico de Mariana Espósito, cantante y actriz argentina.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "L-luismiguel",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "Luis Miguel",
+   "alt": [
+    "luismi"
+   ],
+   "definition": "Cantante mexicano conocido como «el Sol de México».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "L-lionel",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "Lionel",
+   "alt": [
+    "leo"
+   ],
+   "definition": "Nombre de pila del capitán argentino campeón del mundo en Qatar 2022.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "L-leonas",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "Leonas",
+   "alt": [
+    "las leonas"
+   ],
+   "definition": "Apodo de la selección argentina femenina de hockey sobre césped.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "L-londres",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "Londres",
+   "alt": [],
+   "definition": "Capital del Reino Unido.",
+   "difficulty": "facil",
+   "category": "geografia"
+  },
+  {
+   "id": "L-lima",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "Lima",
+   "alt": [],
+   "definition": "Capital del Perú.",
+   "difficulty": "facil",
+   "category": "geografia"
+  },
+  {
+   "id": "L-lechuga",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "lechuga",
+   "alt": [],
+   "definition": "Verdura de hojas verdes, base de muchas ensaladas.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "L-locro",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "locro",
+   "alt": [],
+   "definition": "Guiso criollo espeso de maíz blanco y porotos, típico de las fiestas patrias.",
+   "difficulty": "media",
+   "category": "comida"
+  },
+  {
+   "id": "L-leche",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "leche",
+   "alt": [],
+   "definition": "Bebida blanca que toman los bebés y que se agrega al café.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "L-lapiz",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "lápiz",
+   "alt": [],
+   "definition": "Útil de madera con grafito para escribir o dibujar.",
+   "difficulty": "facil",
+   "category": "general"
+  },
+  {
+   "id": "L-lupa",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "lupa",
+   "alt": [],
+   "definition": "Lente que agranda lo que se mira a través de ella.",
+   "difficulty": "facil",
+   "category": "ciencia"
+  },
+  {
+   "id": "L-lobo",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "lobo",
+   "alt": [],
+   "definition": "Animal salvaje parecido a un perro, que aúlla de noche.",
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "M-manzana",
@@ -613,7 +2703,8 @@
    "answer": "manzana",
    "alt": [],
    "definition": "Fruta roja o verde; una envenenada aparece en el cuento de Blancanieves.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "comida"
   },
   {
    "id": "M-mono",
@@ -622,7 +2713,8 @@
    "answer": "mono",
    "alt": [],
    "definition": "Animal que trepa a los árboles y, en los dibujos, siempre come bananas.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "M-martillo",
@@ -631,7 +2723,8 @@
    "answer": "martillo",
    "alt": [],
    "definition": "Herramienta con mango y cabeza de metal que se usa para clavar clavos.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "general"
   },
   {
    "id": "M-mate",
@@ -640,7 +2733,8 @@
    "answer": "mate",
    "alt": [],
    "definition": "Infusión típica rioplatense que se toma con bombilla.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "comida"
   },
   {
    "id": "M-murcielago",
@@ -649,7 +2743,8 @@
    "answer": "murciélago",
    "alt": [],
    "definition": "Único mamífero capaz de volar; sale de noche y se orienta por el eco de sus chillidos.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "naturaleza"
   },
   {
    "id": "M-medusa",
@@ -658,7 +2753,8 @@
    "answer": "medusa",
    "alt": [],
    "definition": "Animal marino de cuerpo gelatinoso y tentáculos que pueden picar.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "naturaleza"
   },
   {
    "id": "M-meteorito",
@@ -667,7 +2763,224 @@
    "answer": "meteorito",
    "alt": [],
    "definition": "Fragmento de roca del espacio que atraviesa la atmósfera y llega a caer en la Tierra.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "ciencia"
+  },
+  {
+   "id": "M-mickey",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "Mickey",
+   "alt": [
+    "mickey mouse"
+   ],
+   "definition": "Ratón más famoso de Disney.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "M-mufasa",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "Mufasa",
+   "alt": [],
+   "definition": "León de Disney asesinado por su hermano Scar en una estampida.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "M-minions",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "Minions",
+   "alt": [
+    "minion"
+   ],
+   "definition": "Pequeños seres amarillos de «Mi villano favorito».",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "M-moana",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "Moana",
+   "alt": [
+    "vaiana"
+   ],
+   "definition": "Película de Disney de 2016 sobre una joven polinesia que navega con el semidiós Maui.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "M-matrix",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "Matrix",
+   "alt": [],
+   "definition": "Película de 1999 en la que el protagonista descubre que vive en una simulación.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "M-mulan",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "Mulán",
+   "alt": [],
+   "definition": "Joven china que se disfraza de soldado en una película de Disney de 1998.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "M-mozart",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "Mozart",
+   "alt": [],
+   "definition": "Apellido de Wolfgang Amadeus, compositor austríaco y niño prodigio.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "M-madonna",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "Madonna",
+   "alt": [],
+   "definition": "Cantante estadounidense conocida como la Reina del Pop.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "M-maracas",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "maracas",
+   "alt": [
+    "maraca"
+   ],
+   "definition": "Instrumento de percusión que se sacude, con semillas adentro.",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "M-mercedes",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "Mercedes",
+   "alt": [
+    "mercedes sosa"
+   ],
+   "definition": "Nombre de pila de «La Negra», la cantante tucumana de «Gracias a la vida».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "M-microfono",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "micrófono",
+   "alt": [],
+   "definition": "Aparato que capta la voz para amplificarla.",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "M-messi",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "Messi",
+   "alt": [],
+   "definition": "Apellido del capitán argentino campeón del mundo en Qatar 2022.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "M-maradona",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "Maradona",
+   "alt": [],
+   "definition": "Apellido de Diego, autor del «gol del siglo» a Inglaterra en 1986.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "M-maraton",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "maratón",
+   "alt": [],
+   "definition": "Carrera a pie de 42 kilómetros y 195 metros.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "M-mexico",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "México",
+   "alt": [
+    "mejico"
+   ],
+   "definition": "País norteamericano de los mariachis y el tequila.",
+   "difficulty": "facil",
+   "category": "geografia"
+  },
+  {
+   "id": "M-mendoza",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "Mendoza",
+   "alt": [],
+   "definition": "Provincia argentina famosa por sus vinos y por el Aconcagua.",
+   "difficulty": "facil",
+   "category": "geografia"
+  },
+  {
+   "id": "M-milanesa",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "milanesa",
+   "alt": [],
+   "definition": "Filete de carne rebozado con pan rallado.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "M-medialuna",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "medialuna",
+   "alt": [
+    "medialunas"
+   ],
+   "definition": "Factura argentina con forma curva, ideal con café con leche.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "M-malvinas",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "Malvinas",
+   "alt": [
+    "islas malvinas"
+   ],
+   "definition": "Islas del Atlántico Sur reclamadas por la Argentina.",
+   "difficulty": "media",
+   "category": "historia"
+  },
+  {
+   "id": "M-mercurio",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "Mercurio",
+   "alt": [],
+   "definition": "Planeta más cercano al Sol.",
+   "difficulty": "media",
+   "category": "ciencia"
   },
   {
    "id": "N-naranja",
@@ -676,7 +2989,8 @@
    "answer": "naranja",
    "alt": [],
    "definition": "Fruta cítrica redonda con la que se hace un jugo muy común en el desayuno.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "comida"
   },
   {
    "id": "N-nieve",
@@ -685,7 +2999,8 @@
    "answer": "nieve",
    "alt": [],
    "definition": "Agua helada que cae del cielo en copos blancos.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "general"
   },
   {
    "id": "N-nido",
@@ -694,7 +3009,8 @@
    "answer": "nido",
    "alt": [],
    "definition": "Lugar que construyen los pájaros para poner sus huevos.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "N-nueve",
@@ -703,7 +3019,8 @@
    "answer": "nueve",
    "alt": [],
    "definition": "Número que sigue al ocho.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "general"
   },
   {
    "id": "N-neptuno",
@@ -712,7 +3029,8 @@
    "answer": "Neptuno",
    "alt": [],
    "definition": "Planeta del sistema solar más lejano del Sol.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "ciencia"
   },
   {
    "id": "N-narrador",
@@ -721,7 +3039,184 @@
    "answer": "narrador",
    "alt": [],
    "definition": "Voz que cuenta la historia en una novela o un cuento.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "general"
+  },
+  {
+   "id": "N-nemo",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "Nemo",
+   "alt": [],
+   "definition": "Pez payaso de Pixar que se pierde en el océano.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "N-neo",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "Neo",
+   "alt": [],
+   "definition": "Protagonista de «Matrix», interpretado por Keanu Reeves.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "N-nuevereinas",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "Nueve reinas",
+   "alt": [],
+   "definition": "Película argentina del año 2000 sobre dos estafadores, con Ricardo Darín y Gastón Pauls.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "N-narnia",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "Narnia",
+   "alt": [],
+   "definition": "Mundo mágico al que se entra por un ropero, donde reina el león Aslan.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "N-nirvana",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "Nirvana",
+   "alt": [],
+   "definition": "Banda de Seattle liderada por Kurt Cobain.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "N-nota",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "nota",
+   "alt": [
+    "notas"
+   ],
+   "definition": "Cada uno de los sonidos de la escala: do, re, mi…",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "N-nickinicole",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "Nicki Nicole",
+   "alt": [
+    "nicki"
+   ],
+   "definition": "Nombre artístico de la cantante rosarina Nicole Cucco.",
+   "difficulty": "dificil",
+   "category": "musica"
+  },
+  {
+   "id": "N-nebbia",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "Nebbia",
+   "alt": [],
+   "definition": "Apellido de Litto, fundador de Los Gatos y coautor de «La balsa».",
+   "difficulty": "dificil",
+   "category": "musica"
+  },
+  {
+   "id": "N-natacion",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "natación",
+   "alt": [],
+   "definition": "Deporte que se practica en una pileta.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "N-nba",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "NBA",
+   "alt": [],
+   "definition": "Liga profesional de básquet de Estados Unidos, donde jugó Manu Ginóbili.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "N-nilo",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "Nilo",
+   "alt": [],
+   "definition": "Río africano que atraviesa Egipto.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "N-noruega",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "Noruega",
+   "alt": [],
+   "definition": "País nórdico famoso por sus fiordos.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "N-neuquen",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "Neuquén",
+   "alt": [],
+   "definition": "Provincia argentina donde están San Martín de los Andes y Villa La Angostura.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "N-nuez",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "nuez",
+   "alt": [
+    "nueces"
+   ],
+   "definition": "Fruto seco de cáscara dura con forma de cerebro.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "N-nachos",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "nachos",
+   "alt": [],
+   "definition": "Triángulos fritos de tortilla de maíz, típicos de la comida tex-mex.",
+   "difficulty": "media",
+   "category": "comida"
+  },
+  {
+   "id": "N-napoleon",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "Napoleón",
+   "alt": [],
+   "definition": "Nombre de pila de Bonaparte, emperador de Francia.",
+   "difficulty": "media",
+   "category": "historia"
+  },
+  {
+   "id": "N-nariz",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "nariz",
+   "alt": [],
+   "definition": "Órgano del olfato.",
+   "difficulty": "facil",
+   "category": "ciencia"
   },
   {
    "id": "Ñ-otoño",
@@ -730,7 +3225,8 @@
    "answer": "otoño",
    "alt": [],
    "definition": "Estación del año en la que se caen las hojas de los árboles.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "general"
   },
   {
    "id": "Ñ-niño",
@@ -739,7 +3235,8 @@
    "answer": "niño",
    "alt": [],
    "definition": "Persona de poca edad.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "general"
   },
   {
    "id": "Ñ-araña",
@@ -748,7 +3245,8 @@
    "answer": "araña",
    "alt": [],
    "definition": "Animal de ocho patas que teje telas.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "Ñ-montaña",
@@ -757,7 +3255,8 @@
    "answer": "montaña",
    "alt": [],
    "definition": "Gran elevación natural del terreno.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "geografia"
   },
   {
    "id": "Ñ-ñandu",
@@ -766,7 +3265,8 @@
    "answer": "ñandú",
    "alt": [],
    "definition": "Ave grande sudamericana que no vuela, parecida al avestruz.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "naturaleza"
   },
   {
    "id": "Ñ-ñoqui",
@@ -777,7 +3277,8 @@
     "ñoquis"
    ],
    "definition": "Bolita de masa de papa y harina que en la Argentina se come el día 29 de cada mes.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "comida"
   },
   {
    "id": "Ñ-piraña",
@@ -786,7 +3287,194 @@
    "answer": "piraña",
    "alt": [],
    "definition": "Pez carnívoro de los ríos sudamericanos, con dientes muy afilados.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "naturaleza"
+  },
+  {
+   "id": "Ñ-piña",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "piña",
+   "alt": [],
+   "definition": "Fruta tropical con una corona de hojas, también llamada ananá.",
+   "difficulty": "media",
+   "category": "comida"
+  },
+  {
+   "id": "Ñ-lasaña",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "lasaña",
+   "alt": [
+    "lasagna"
+   ],
+   "definition": "Plato italiano de capas de pasta, salsa y queso.",
+   "difficulty": "media",
+   "category": "comida"
+  },
+  {
+   "id": "Ñ-castaña",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "castaña",
+   "alt": [],
+   "definition": "Fruto seco del castaño, rico asado en otoño.",
+   "difficulty": "media",
+   "category": "comida"
+  },
+  {
+   "id": "Ñ-año",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "año",
+   "alt": [],
+   "definition": "Período de doce meses.",
+   "difficulty": "facil",
+   "category": "general"
+  },
+  {
+   "id": "Ñ-baño",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "baño",
+   "alt": [],
+   "definition": "Habitación de la casa con inodoro y ducha.",
+   "difficulty": "facil",
+   "category": "general"
+  },
+  {
+   "id": "Ñ-sueño",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "sueño",
+   "alt": [],
+   "definition": "Lo que vemos mientras dormimos.",
+   "difficulty": "facil",
+   "category": "general"
+  },
+  {
+   "id": "Ñ-pañuelo",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "pañuelo",
+   "alt": [],
+   "definition": "Trozo de tela chico que se usa para sonarse la nariz.",
+   "difficulty": "facil",
+   "category": "general"
+  },
+  {
+   "id": "Ñ-cumpleaños",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "cumpleaños",
+   "alt": [],
+   "definition": "Aniversario del día en que alguien nació.",
+   "difficulty": "facil",
+   "category": "general"
+  },
+  {
+   "id": "Ñ-muñeca",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "muñeca",
+   "alt": [],
+   "definition": "Juguete con forma de nena, como Barbie.",
+   "difficulty": "facil",
+   "category": "general"
+  },
+  {
+   "id": "Ñ-leña",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "leña",
+   "alt": [],
+   "definition": "Madera cortada para hacer fuego.",
+   "difficulty": "facil",
+   "category": "general"
+  },
+  {
+   "id": "Ñ-mañana",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "mañana",
+   "alt": [],
+   "definition": "Parte del día que va desde que amanece hasta el mediodía.",
+   "difficulty": "facil",
+   "category": "general"
+  },
+  {
+   "id": "Ñ-españa",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "España",
+   "alt": [],
+   "definition": "País europeo cuya capital es Madrid.",
+   "difficulty": "facil",
+   "category": "geografia"
+  },
+  {
+   "id": "Ñ-cataluña",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "Cataluña",
+   "alt": [],
+   "definition": "Comunidad autónoma española cuya capital es Barcelona.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "Ñ-piñonfijo",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "Piñón Fijo",
+   "alt": [
+    "pinon"
+   ],
+   "definition": "Payaso músico argentino de cara pintada, famoso por sus canciones infantiles.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "Ñ-cigueña",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "cigüeña",
+   "alt": [],
+   "definition": "Ave zancuda que, según la leyenda, trae a los bebés.",
+   "difficulty": "facil",
+   "category": "naturaleza"
+  },
+  {
+   "id": "Ñ-riñon",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "riñón",
+   "alt": [],
+   "definition": "Órgano que filtra la sangre y produce la orina.",
+   "difficulty": "media",
+   "category": "ciencia"
+  },
+  {
+   "id": "Ñ-pestaña",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "pestaña",
+   "alt": [],
+   "definition": "Cada uno de los pelitos del borde del párpado.",
+   "difficulty": "facil",
+   "category": "ciencia"
+  },
+  {
+   "id": "Ñ-español",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "español",
+   "alt": [
+    "castellano"
+   ],
+   "definition": "Idioma que se habla en la Argentina, también llamado castellano.",
+   "difficulty": "media",
+   "category": "historia"
   },
   {
    "id": "O-oso",
@@ -795,7 +3483,8 @@
    "answer": "oso",
    "alt": [],
    "definition": "Mamífero grande y peludo; algunos hibernan durante el invierno.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "O-ojo",
@@ -804,7 +3493,8 @@
    "answer": "ojo",
    "alt": [],
    "definition": "Órgano de la vista.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "ciencia"
   },
   {
    "id": "O-oveja",
@@ -813,7 +3503,8 @@
    "answer": "oveja",
    "alt": [],
    "definition": "Animal de granja del que se obtiene la lana.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "O-oceano",
@@ -822,7 +3513,8 @@
    "answer": "océano",
    "alt": [],
    "definition": "Gran masa de agua salada, como el Atlántico o el Pacífico.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "geografia"
   },
   {
    "id": "O-organo",
@@ -831,7 +3523,8 @@
    "answer": "órgano",
    "alt": [],
    "definition": "Instrumento musical de teclado y tubos, típico de las iglesias.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "musica"
   },
   {
    "id": "O-opera",
@@ -840,7 +3533,200 @@
    "answer": "ópera",
    "alt": [],
    "definition": "Obra de teatro en la que los personajes cantan acompañados por una orquesta.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "musica"
+  },
+  {
+   "id": "O-olaf",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "Olaf",
+   "alt": [],
+   "definition": "Muñeco de nieve de «Frozen» que sueña con el verano.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "O-oscar",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "Oscar",
+   "alt": [
+    "oscars",
+    "premio oscar"
+   ],
+   "definition": "Premio más famoso del cine: una estatuilla dorada.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "O-obiwan",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "Obi-Wan",
+   "alt": [
+    "obiwan",
+    "obi wan kenobi"
+   ],
+   "definition": "Nombre del maestro Jedi Kenobi.",
+   "difficulty": "dificil",
+   "category": "cine"
+  },
+  {
+   "id": "O-oz",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "Oz",
+   "alt": [],
+   "definition": "El mago de ___: película de 1939 con Dorothy y el camino amarillo.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "O-ogro",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "ogro",
+   "alt": [],
+   "definition": "Gigante feo y gruñón de los cuentos de hadas.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "O-orquesta",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "orquesta",
+   "alt": [],
+   "definition": "Gran conjunto de músicos con instrumentos de cuerda, viento y percusión.",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "O-oboe",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "oboe",
+   "alt": [],
+   "definition": "Instrumento de viento de madera con doble lengüeta.",
+   "difficulty": "dificil",
+   "category": "musica"
+  },
+  {
+   "id": "O-octava",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "octava",
+   "alt": [],
+   "definition": "Intervalo entre una nota y la siguiente del mismo nombre, como de un do al otro do.",
+   "difficulty": "dificil",
+   "category": "musica"
+  },
+  {
+   "id": "O-oasis",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "Oasis",
+   "alt": [],
+   "definition": "Banda británica de los hermanos Gallagher, de «Wonderwall».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "O-olimpicos",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "olímpicos",
+   "alt": [
+    "olimpiadas",
+    "olimpiada"
+   ],
+   "definition": "Juegos ___: competencia mundial que se hace cada cuatro años, con cinco anillos de símbolo.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "O-offside",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "offside",
+   "alt": [
+    "orsai",
+    "off side"
+   ],
+   "definition": "Posición adelantada en el fútbol, dicha en inglés.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "O-oceania",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "Oceanía",
+   "alt": [],
+   "definition": "Continente de Australia y Nueva Zelanda.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "O-oslo",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "Oslo",
+   "alt": [],
+   "definition": "Capital de Noruega.",
+   "difficulty": "dificil",
+   "category": "geografia"
+  },
+  {
+   "id": "O-oregano",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "orégano",
+   "alt": [],
+   "definition": "Hierba aromática seca que se espolvorea sobre la muzzarella.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "O-oliva",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "oliva",
+   "alt": [],
+   "definition": "Aceite de ___: el que se hace con aceitunas.",
+   "difficulty": "media",
+   "category": "comida"
+  },
+  {
+   "id": "O-ornitorrinco",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "ornitorrinco",
+   "alt": [],
+   "definition": "Mamífero australiano con pico de pato que pone huevos.",
+   "difficulty": "media",
+   "category": "naturaleza"
+  },
+  {
+   "id": "O-oido",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "oído",
+   "alt": [],
+   "definition": "Sentido que nos permite escuchar.",
+   "difficulty": "facil",
+   "category": "ciencia"
+  },
+  {
+   "id": "O-orbita",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "órbita",
+   "alt": [],
+   "definition": "Camino curvo que recorre un planeta alrededor de su estrella.",
+   "difficulty": "media",
+   "category": "ciencia"
   },
   {
    "id": "P-pinguino",
@@ -849,7 +3735,8 @@
    "answer": "pingüino",
    "alt": [],
    "definition": "Ave blanca y negra que no vuela y nada muy bien en mares fríos.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "P-pan",
@@ -858,7 +3745,8 @@
    "answer": "pan",
    "alt": [],
    "definition": "Alimento hecho con harina, agua, sal y levadura, cocido al horno.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "comida"
   },
   {
    "id": "P-pintor",
@@ -867,7 +3755,8 @@
    "answer": "pintor",
    "alt": [],
    "definition": "Persona que pinta cuadros.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "general"
   },
   {
    "id": "P-papagayo",
@@ -876,7 +3765,8 @@
    "answer": "papagayo",
    "alt": [],
    "definition": "Ave tropical de plumaje muy colorido y pico curvo que puede imitar la voz humana.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "naturaleza"
   },
   {
    "id": "P-piramide",
@@ -885,7 +3775,8 @@
    "answer": "pirámide",
    "alt": [],
    "definition": "Gran construcción del antiguo Egipto con base cuadrada y caras triangulares.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "historia"
   },
   {
    "id": "P-pentagono",
@@ -894,7 +3785,209 @@
    "answer": "pentágono",
    "alt": [],
    "definition": "Polígono de cinco lados.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "ciencia"
+  },
+  {
+   "id": "P-potter",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "Potter",
+   "alt": [],
+   "definition": "Apellido de Harry, el mago de Hogwarts.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "P-pinocho",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "Pinocho",
+   "alt": [],
+   "definition": "Muñeco de madera al que le crece la nariz cuando miente.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "P-pixar",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "Pixar",
+   "alt": [],
+   "definition": "Estudio de animación de la lámpara saltarina, creador de «Buscando a Nemo».",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "P-pochoclo",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "pochoclo",
+   "alt": [
+    "pochoclos",
+    "palomitas",
+    "pororo"
+   ],
+   "definition": "Maíz inflado que se come en el cine.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "P-peterpan",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "Peter Pan",
+   "alt": [
+    "peter"
+   ],
+   "definition": "Niño que no quería crecer y vivía en el País de Nunca Jamás.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "P-piano",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "piano",
+   "alt": [],
+   "definition": "Instrumento de 88 teclas blancas y negras.",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "P-paez",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "Páez",
+   "alt": [],
+   "definition": "Apellido de Fito, autor de «Mariposa Tecknicolor».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "P-presley",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "Presley",
+   "alt": [],
+   "definition": "Apellido de Elvis, el Rey del Rock.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "P-percusion",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "percusión",
+   "alt": [],
+   "definition": "Familia de instrumentos que se tocan golpeando, como el bombo.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "P-pop",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "pop",
+   "alt": [],
+   "definition": "Género musical pegadizo y popular, el de Michael Jackson o Madonna.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "P-penal",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "penal",
+   "alt": [
+    "penalti",
+    "penalty"
+   ],
+   "definition": "Tiro desde los once metros.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "P-pele",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "Pelé",
+   "alt": [],
+   "definition": "Apodo del astro brasileño tres veces campeón del mundo.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "P-pingpong",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "ping-pong",
+   "alt": [],
+   "definition": "Nombre popular del tenis de mesa.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "P-paris",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "París",
+   "alt": [],
+   "definition": "Capital de Francia.",
+   "difficulty": "facil",
+   "category": "geografia"
+  },
+  {
+   "id": "P-patagonia",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "Patagonia",
+   "alt": [],
+   "definition": "Región del sur de la Argentina y de Chile.",
+   "difficulty": "facil",
+   "category": "geografia"
+  },
+  {
+   "id": "P-pizza",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "pizza",
+   "alt": [],
+   "definition": "Comida italiana de masa redonda horneada con muzzarella.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "P-pure",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "puré",
+   "alt": [],
+   "definition": "Comida de papas pisadas.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "P-pirata",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "pirata",
+   "alt": [],
+   "definition": "Ladrón de los mares con parche y pata de palo.",
+   "difficulty": "facil",
+   "category": "historia"
+  },
+  {
+   "id": "P-pulmon",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "pulmón",
+   "alt": [
+    "pulmones"
+   ],
+   "definition": "Órgano con el que respiramos.",
+   "difficulty": "facil",
+   "category": "ciencia"
   },
   {
    "id": "Q-queso",
@@ -903,7 +3996,8 @@
    "answer": "queso",
    "alt": [],
    "definition": "Alimento que se elabora cuajando la leche.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "comida"
   },
   {
    "id": "Q-quince",
@@ -912,7 +4006,8 @@
    "answer": "quince",
    "alt": [],
    "definition": "Número que sigue al catorce.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "general"
   },
   {
    "id": "Q-quimica",
@@ -921,7 +4016,8 @@
    "answer": "química",
    "alt": [],
    "definition": "Ciencia que estudia la composición de las sustancias y cómo se transforman.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "ciencia"
   },
   {
    "id": "Q-quemadura",
@@ -930,7 +4026,8 @@
    "answer": "quemadura",
    "alt": [],
    "definition": "Lesión de la piel causada por el fuego o por algo muy caliente.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "ciencia"
   },
   {
    "id": "Q-quetzal",
@@ -939,7 +4036,243 @@
    "answer": "quetzal",
    "alt": [],
    "definition": "Ave de plumas verdes brillantes, símbolo nacional de Guatemala.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "naturaleza"
+  },
+  {
+   "id": "Q-queen",
+   "letter": "Q",
+   "type": "empieza",
+   "answer": "Queen",
+   "alt": [],
+   "definition": "Banda británica de Freddie Mercury, de «Bohemian Rhapsody».",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "Q-quena",
+   "letter": "Q",
+   "type": "empieza",
+   "answer": "quena",
+   "alt": [],
+   "definition": "Flauta andina de caña.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "Q-quinteto",
+   "letter": "Q",
+   "type": "empieza",
+   "answer": "quinteto",
+   "alt": [],
+   "definition": "Conjunto de cinco músicos.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "Q-joaquin",
+   "letter": "Q",
+   "type": "contiene",
+   "answer": "Joaquín",
+   "alt": [],
+   "definition": "Nombre de pila de Sabina, cantautor español de «19 días y 500 noches».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "Q-quijote",
+   "letter": "Q",
+   "type": "empieza",
+   "answer": "Quijote",
+   "alt": [
+    "don quijote"
+   ],
+   "definition": "Don ___: el caballero de la novela de Cervantes.",
+   "difficulty": "media",
+   "category": "historia"
+  },
+  {
+   "id": "Q-quentin",
+   "letter": "Q",
+   "type": "empieza",
+   "answer": "Quentin",
+   "alt": [],
+   "definition": "Nombre de pila de Tarantino, director de «Pulp Fiction».",
+   "difficulty": "dificil",
+   "category": "cine"
+  },
+  {
+   "id": "Q-quasimodo",
+   "letter": "Q",
+   "type": "empieza",
+   "answer": "Quasimodo",
+   "alt": [],
+   "definition": "Campanero jorobado de Notre Dame.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "Q-mosquetero",
+   "letter": "Q",
+   "type": "contiene",
+   "answer": "mosquetero",
+   "alt": [
+    "mosqueteros"
+   ],
+   "definition": "Cada uno de los tres compañeros de D'Artagnan.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "Q-bosque",
+   "letter": "Q",
+   "type": "contiene",
+   "answer": "bosque",
+   "alt": [],
+   "definition": "Lugar lleno de árboles donde Caperucita se cruza con el lobo.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "Q-raqueta",
+   "letter": "Q",
+   "type": "contiene",
+   "answer": "raqueta",
+   "alt": [],
+   "definition": "Paleta con cuerdas con la que se juega al tenis.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "Q-esqui",
+   "letter": "Q",
+   "type": "contiene",
+   "answer": "esquí",
+   "alt": [
+    "esqui"
+   ],
+   "definition": "Deporte de deslizarse por la nieve con dos tablas largas.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "Q-arquero",
+   "letter": "Q",
+   "type": "contiene",
+   "answer": "arquero",
+   "alt": [
+    "portero"
+   ],
+   "definition": "Jugador que ataja en el arco.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "Q-esquina",
+   "letter": "Q",
+   "type": "contiene",
+   "answer": "esquina",
+   "alt": [],
+   "definition": "Tiro de ___: el córner, en el fútbol.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "Q-quesadilla",
+   "letter": "Q",
+   "type": "empieza",
+   "answer": "quesadilla",
+   "alt": [],
+   "definition": "Tortilla mexicana rellena de queso fundido.",
+   "difficulty": "media",
+   "category": "comida"
+  },
+  {
+   "id": "Q-quinoa",
+   "letter": "Q",
+   "type": "empieza",
+   "answer": "quinoa",
+   "alt": [
+    "quinua"
+   ],
+   "definition": "Semilla andina muy nutritiva que se cocina como un cereal.",
+   "difficulty": "media",
+   "category": "comida"
+  },
+  {
+   "id": "Q-croqueta",
+   "letter": "Q",
+   "type": "contiene",
+   "answer": "croqueta",
+   "alt": [
+    "croquetas"
+   ],
+   "definition": "Bocado empanado y frito, por ejemplo de papa o de carne.",
+   "difficulty": "media",
+   "category": "comida"
+  },
+  {
+   "id": "Q-quito",
+   "letter": "Q",
+   "type": "empieza",
+   "answer": "Quito",
+   "alt": [],
+   "definition": "Capital de Ecuador.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "Q-turquia",
+   "letter": "Q",
+   "type": "contiene",
+   "answer": "Turquía",
+   "alt": [],
+   "definition": "País entre Europa y Asia cuya ciudad más grande es Estambul.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "Q-cacique",
+   "letter": "Q",
+   "type": "contiene",
+   "answer": "cacique",
+   "alt": [],
+   "definition": "Jefe de una comunidad indígena.",
+   "difficulty": "media",
+   "category": "historia"
+  },
+  {
+   "id": "Q-maquina",
+   "letter": "Q",
+   "type": "contiene",
+   "answer": "máquina",
+   "alt": [],
+   "definition": "Aparato que transforma energía para hacer un trabajo.",
+   "difficulty": "media",
+   "category": "ciencia"
+  },
+  {
+   "id": "Q-quiosco",
+   "letter": "Q",
+   "type": "empieza",
+   "answer": "quiosco",
+   "alt": [
+    "kiosco",
+    "kiosko"
+   ],
+   "definition": "Local chiquito donde se venden golosinas y bebidas.",
+   "difficulty": "facil",
+   "category": "general"
+  },
+  {
+   "id": "Q-mosquito",
+   "letter": "Q",
+   "type": "contiene",
+   "answer": "mosquito",
+   "alt": [],
+   "definition": "Insecto que zumba y pica de noche.",
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "R-raton",
@@ -948,7 +4281,8 @@
    "answer": "ratón",
    "alt": [],
    "definition": "Animal pequeño de cola larga que en los dibujos animados siempre come queso.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "R-rosa",
@@ -957,7 +4291,8 @@
    "answer": "rosa",
    "alt": [],
    "definition": "Flor muy perfumada que tiene espinas en el tallo.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "R-reloj",
@@ -966,7 +4301,8 @@
    "answer": "reloj",
    "alt": [],
    "definition": "Aparato que marca la hora.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "general"
   },
   {
    "id": "R-rio",
@@ -975,7 +4311,8 @@
    "answer": "río",
    "alt": [],
    "definition": "Corriente natural de agua que desemboca en el mar, en un lago o en otra corriente.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "geografia"
   },
   {
    "id": "R-rinoceronte",
@@ -984,7 +4321,8 @@
    "answer": "rinoceronte",
    "alt": [],
    "definition": "Mamífero de piel gruesa con uno o dos cuernos sobre la nariz.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "naturaleza"
   },
   {
    "id": "R-reflejo",
@@ -993,7 +4331,230 @@
    "answer": "reflejo",
    "alt": [],
    "definition": "Imagen que devuelve un espejo o la superficie del agua.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "ciencia"
+  },
+  {
+   "id": "R-rapunzel",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "Rapunzel",
+   "alt": [],
+   "definition": "Princesa de pelo larguísimo de «Enredados».",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "R-ratatouille",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "Ratatouille",
+   "alt": [],
+   "definition": "Película de Pixar de 2007 sobre una rata que sueña con ser chef en París.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "R-rocky",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "Rocky",
+   "alt": [],
+   "definition": "Boxeador de cine interpretado por Sylvester Stallone.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "R-remy",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "Remy",
+   "alt": [],
+   "definition": "Nombre de la rata cocinera de una película de Pixar.",
+   "difficulty": "dificil",
+   "category": "cine"
+  },
+  {
+   "id": "R-rey",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "rey",
+   "alt": [],
+   "definition": "El ___ león: clásico de Disney de 1994.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "R-rock",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "rock",
+   "alt": [
+    "rock and roll",
+    "rocanrol"
+   ],
+   "definition": "Género musical de guitarras eléctricas nacido en los años 50.",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "R-regueton",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "reguetón",
+   "alt": [
+    "reggaeton",
+    "regueton"
+   ],
+   "definition": "Género urbano latino nacido entre Puerto Rico y Panamá, como «Gasolina».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "R-re",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "re",
+   "alt": [],
+   "definition": "Nota musical que está entre el do y el mi.",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "R-rollingstones",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "Rolling Stones",
+   "alt": [
+    "the rolling stones",
+    "los rolling stones",
+    "stones"
+   ],
+   "definition": "Banda británica de Mick Jagger y Keith Richards.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "R-redondos",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "Redondos",
+   "alt": [
+    "los redondos",
+    "redonditos"
+   ],
+   "definition": "Apodo de la banda Patricio Rey y sus Redonditos de Ricota.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "R-river",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "River",
+   "alt": [
+    "river plate"
+   ],
+   "definition": "Club de fútbol de Núñez apodado «el Millonario».",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "R-rugby",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "rugby",
+   "alt": [],
+   "definition": "Deporte de pelota ovalada en el que se marcan tries.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "R-ronaldo",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "Ronaldo",
+   "alt": [
+    "cristiano ronaldo"
+   ],
+   "definition": "Apellido del futbolista portugués Cristiano.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "R-remo",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "remo",
+   "alt": [],
+   "definition": "Deporte en el que se impulsa un bote con palas.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "R-roma",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "Roma",
+   "alt": [],
+   "definition": "Capital de Italia.",
+   "difficulty": "facil",
+   "category": "geografia"
+  },
+  {
+   "id": "R-rosario",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "Rosario",
+   "alt": [],
+   "definition": "Ciudad santafesina donde nació Messi y donde se izó por primera vez la bandera argentina.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "R-ravioles",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "ravioles",
+   "alt": [
+    "ravioli",
+    "raviol"
+   ],
+   "definition": "Pasta rellena de forma cuadrada, clásica del almuerzo del domingo.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "R-romanos",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "romanos",
+   "alt": [
+    "romano"
+   ],
+   "definition": "Pueblo antiguo que construyó el Coliseo.",
+   "difficulty": "media",
+   "category": "historia"
+  },
+  {
+   "id": "R-rayo",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "rayo",
+   "alt": [],
+   "definition": "Descarga eléctrica que cae del cielo durante una tempestad.",
+   "difficulty": "facil",
+   "category": "ciencia"
+  },
+  {
+   "id": "R-rana",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "rana",
+   "alt": [],
+   "definition": "Anfibio que croa.",
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "S-sol",
@@ -1002,7 +4563,8 @@
    "answer": "sol",
    "alt": [],
    "definition": "Estrella que da luz y calor a la Tierra.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "ciencia"
   },
   {
    "id": "S-serpiente",
@@ -1011,7 +4573,8 @@
    "answer": "serpiente",
    "alt": [],
    "definition": "Reptil sin patas que se desplaza arrastrándose.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "S-siglo",
@@ -1020,7 +4583,8 @@
    "answer": "siglo",
    "alt": [],
    "definition": "Período de cien años.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "general"
   },
   {
    "id": "S-sahara",
@@ -1029,7 +4593,8 @@
    "answer": "Sahara",
    "alt": [],
    "definition": "Desierto cálido más grande del mundo, en el norte de África.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "geografia"
   },
   {
    "id": "S-saturno",
@@ -1038,7 +4603,8 @@
    "answer": "Saturno",
    "alt": [],
    "definition": "Planeta famoso por sus anillos.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "ciencia"
   },
   {
    "id": "S-saxofon",
@@ -1050,7 +4616,8 @@
     "saxo"
    ],
    "definition": "Instrumento de viento de metal, muy usado en el jazz.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "musica"
   },
   {
    "id": "S-sinonimo",
@@ -1059,7 +4626,194 @@
    "answer": "sinónimo",
    "alt": [],
    "definition": "Palabra que significa lo mismo o casi lo mismo que otra.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "general"
+  },
+  {
+   "id": "S-simba",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "Simba",
+   "alt": [],
+   "definition": "León protagonista de «El rey león».",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "S-shrek",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "Shrek",
+   "alt": [],
+   "definition": "Ogro verde que vive en un pantano.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "S-spielberg",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "Spielberg",
+   "alt": [],
+   "definition": "Apellido de Steven, director de «E.T.» y «Jurassic Park».",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "S-starwars",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "Star Wars",
+   "alt": [],
+   "definition": "Título original de «La guerra de las galaxias».",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "S-stitch",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "Stitch",
+   "alt": [],
+   "definition": "Experimento 626: alienígena azul amigo de Lilo.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "S-sodastereo",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "Soda Stereo",
+   "alt": [
+    "soda"
+   ],
+   "definition": "Banda argentina de «De música ligera» y «Persiana americana».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "S-shakira",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "Shakira",
+   "alt": [],
+   "definition": "Cantante colombiana de «Hips Don't Lie» y «Waka Waka».",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "S-spinetta",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "Spinetta",
+   "alt": [],
+   "definition": "Apellido de Luis Alberto, el «Flaco», fundador de Almendra.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "S-sosa",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "Sosa",
+   "alt": [],
+   "definition": "Apellido de Mercedes, «La Negra».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "S-sinfonia",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "sinfonía",
+   "alt": [],
+   "definition": "Composición extensa para orquesta, como la Novena de Beethoven.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "S-samba",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "samba",
+   "alt": [],
+   "definition": "Ritmo brasileño típico del carnaval de Río de Janeiro.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "S-scaloni",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "Scaloni",
+   "alt": [],
+   "definition": "Apellido del técnico de la selección argentina campeona del mundo en 2022.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "S-surf",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "surf",
+   "alt": [
+    "surfing"
+   ],
+   "definition": "Deporte de deslizarse sobre las olas con una tabla.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "S-santiago",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "Santiago",
+   "alt": [
+    "santiago de chile"
+   ],
+   "definition": "Capital de Chile.",
+   "difficulty": "facil",
+   "category": "geografia"
+  },
+  {
+   "id": "S-sopa",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "sopa",
+   "alt": [],
+   "definition": "Comida líquida y caliente, con fideos o verduras.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "S-sandia",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "sandía",
+   "alt": [],
+   "definition": "Fruta grande, verde por fuera y roja por dentro.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "S-sanmartin",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "San Martín",
+   "alt": [],
+   "definition": "Apellido del Libertador que cruzó los Andes.",
+   "difficulty": "facil",
+   "category": "historia"
+  },
+  {
+   "id": "S-satelite",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "satélite",
+   "alt": [],
+   "definition": "Cuerpo que gira alrededor de un planeta, como la Luna.",
+   "difficulty": "media",
+   "category": "ciencia"
   },
   {
    "id": "T-tigre",
@@ -1068,7 +4822,8 @@
    "answer": "tigre",
    "alt": [],
    "definition": "Gran felino de pelaje naranja con rayas negras.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "T-tortuga",
@@ -1077,7 +4832,8 @@
    "answer": "tortuga",
    "alt": [],
    "definition": "Reptil muy lento que lleva un caparazón.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "T-trueno",
@@ -1086,7 +4842,8 @@
    "answer": "trueno",
    "alt": [],
    "definition": "Ruido fuerte que se escucha después de un rayo.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "ciencia"
   },
   {
    "id": "T-telescopio",
@@ -1095,7 +4852,8 @@
    "answer": "telescopio",
    "alt": [],
    "definition": "Instrumento para observar objetos muy lejanos, como estrellas y planetas.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "ciencia"
   },
   {
    "id": "T-tormenta",
@@ -1104,7 +4862,8 @@
    "answer": "tormenta",
    "alt": [],
    "definition": "Mal tiempo con lluvia fuerte, viento, rayos y truenos.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "ciencia"
   },
   {
    "id": "T-tsunami",
@@ -1113,7 +4872,192 @@
    "answer": "tsunami",
    "alt": [],
    "definition": "Ola gigante provocada por un terremoto en el fondo del mar.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "geografia"
+  },
+  {
+   "id": "T-titanic",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "Titanic",
+   "alt": [],
+   "definition": "Película de 1997 de James Cameron sobre un transatlántico que se hunde.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "T-toystory",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "Toy Story",
+   "alt": [],
+   "definition": "Película de Pixar de 1995 sobre juguetes que cobran vida.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "T-tarzan",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "Tarzán",
+   "alt": [],
+   "definition": "Hombre criado por gorilas en la selva.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "T-tiburon",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "Tiburón",
+   "alt": [
+    "jaws"
+   ],
+   "definition": "Película de Spielberg de 1975 que hizo que muchos tuvieran miedo de meterse al mar.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "T-thor",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "Thor",
+   "alt": [],
+   "definition": "Dios del trueno de Marvel, que lucha con un martillo.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "T-tango",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "tango",
+   "alt": [],
+   "definition": "Música rioplatense de Gardel y Piazzolla.",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "T-trompeta",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "trompeta",
+   "alt": [],
+   "definition": "Instrumento de viento de metal con tres pistones.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "T-tambor",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "tambor",
+   "alt": [],
+   "definition": "Instrumento de percusión con un parche tenso que se golpea.",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "T-taylor",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "Taylor",
+   "alt": [
+    "taylor swift"
+   ],
+   "definition": "Nombre de pila de la cantante estadounidense Swift.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "T-tenor",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "tenor",
+   "alt": [],
+   "definition": "Voz masculina aguda de la ópera, como la de Luciano Pavarotti.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "T-tenis",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "tenis",
+   "alt": [],
+   "definition": "Deporte de raqueta en el que brilló Gabriela Sabatini.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "T-tucuman",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "Tucumán",
+   "alt": [],
+   "definition": "Provincia argentina donde se declaró la Independencia.",
+   "difficulty": "facil",
+   "category": "geografia"
+  },
+  {
+   "id": "T-tokio",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "Tokio",
+   "alt": [],
+   "definition": "Capital de Japón.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "T-tomate",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "tomate",
+   "alt": [],
+   "definition": "Fruto rojo con el que se hace la salsa de la pizza.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "T-torta",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "torta",
+   "alt": [],
+   "definition": "Postre que se come en los cumpleaños, con velitas.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "T-tren",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "tren",
+   "alt": [],
+   "definition": "Transporte de vagones que corre sobre rieles.",
+   "difficulty": "facil",
+   "category": "general"
+  },
+  {
+   "id": "T-termometro",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "termómetro",
+   "alt": [],
+   "definition": "Instrumento para medir la temperatura.",
+   "difficulty": "facil",
+   "category": "ciencia"
+  },
+  {
+   "id": "T-tucan",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "tucán",
+   "alt": [],
+   "definition": "Ave tropical de pico enorme y colorido.",
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "U-uva",
@@ -1122,7 +5066,8 @@
    "answer": "uva",
    "alt": [],
    "definition": "Fruta pequeña que crece en racimos y con la que se hace el vino.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "comida"
   },
   {
    "id": "U-uña",
@@ -1131,7 +5076,8 @@
    "answer": "uña",
    "alt": [],
    "definition": "Capa dura que cubre la punta de los dedos.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "ciencia"
   },
   {
    "id": "U-unicornio",
@@ -1140,7 +5086,8 @@
    "answer": "unicornio",
    "alt": [],
    "definition": "Animal fantástico: un caballo con un cuerno en la frente.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "general"
   },
   {
    "id": "U-universo",
@@ -1149,7 +5096,8 @@
    "answer": "universo",
    "alt": [],
    "definition": "Todo lo que existe: planetas, estrellas, galaxias y el espacio entre ellos.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "ciencia"
   },
   {
    "id": "U-urano",
@@ -1158,7 +5106,199 @@
    "answer": "Urano",
    "alt": [],
    "definition": "Séptimo planeta del sistema solar contando desde el Sol.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "ciencia"
+  },
+  {
+   "id": "U-up",
+   "letter": "U",
+   "type": "empieza",
+   "answer": "Up",
+   "alt": [],
+   "definition": "Película de Pixar de 2009 en la que un anciano hace volar su casa con globos.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "U-ursula",
+   "letter": "U",
+   "type": "empieza",
+   "answer": "Úrsula",
+   "alt": [],
+   "definition": "Bruja pulpo de «La sirenita».",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "U-pumba",
+   "letter": "U",
+   "type": "contiene",
+   "answer": "Pumba",
+   "alt": [
+    "pumbaa"
+   ],
+   "definition": "Jabalí amigo de Timón en «El rey león».",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "U-superman",
+   "letter": "U",
+   "type": "contiene",
+   "answer": "Superman",
+   "alt": [],
+   "definition": "Superhéroe del planeta Krypton, con capa roja.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "U-ukelele",
+   "letter": "U",
+   "type": "empieza",
+   "answer": "ukelele",
+   "alt": [
+    "ukulele"
+   ],
+   "definition": "Pequeña guitarra hawaiana de cuatro cuerdas.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "U-u",
+   "letter": "U",
+   "type": "empieza",
+   "answer": "U2",
+   "alt": [
+    "u dos"
+   ],
+   "definition": "Banda irlandesa liderada por Bono.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "U-murga",
+   "letter": "U",
+   "type": "contiene",
+   "answer": "murga",
+   "alt": [],
+   "definition": "Agrupación de carnaval que canta y baila al ritmo del bombo.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "U-acustica",
+   "letter": "U",
+   "type": "contiene",
+   "answer": "acústica",
+   "alt": [],
+   "definition": "Guitarra ___: la que suena sin enchufarse.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "U-pumas",
+   "letter": "U",
+   "type": "contiene",
+   "answer": "Pumas",
+   "alt": [
+    "los pumas",
+    "puma"
+   ],
+   "definition": "Apodo de la selección argentina de rugby.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "U-lucha",
+   "letter": "U",
+   "type": "contiene",
+   "answer": "lucha",
+   "alt": [],
+   "definition": "Deporte de combate cuerpo a cuerpo sin golpes, sobre un colchón.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "U-uruguay",
+   "letter": "U",
+   "type": "empieza",
+   "answer": "Uruguay",
+   "alt": [],
+   "definition": "País vecino cuya capital es Montevideo.",
+   "difficulty": "facil",
+   "category": "geografia"
+  },
+  {
+   "id": "U-ushuaia",
+   "letter": "U",
+   "type": "empieza",
+   "answer": "Ushuaia",
+   "alt": [],
+   "definition": "Ciudad más austral de la Argentina, capital de Tierra del Fuego.",
+   "difficulty": "facil",
+   "category": "geografia"
+  },
+  {
+   "id": "U-azucar",
+   "letter": "U",
+   "type": "contiene",
+   "answer": "azúcar",
+   "alt": [],
+   "definition": "Endulzante blanco que se le pone al café.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "U-humita",
+   "letter": "U",
+   "type": "contiene",
+   "answer": "humita",
+   "alt": [],
+   "definition": "Comida del norte argentino de choclo rallado, envuelta en chala.",
+   "difficulty": "media",
+   "category": "comida"
+  },
+  {
+   "id": "U-universidad",
+   "letter": "U",
+   "type": "empieza",
+   "answer": "universidad",
+   "alt": [
+    "facultad"
+   ],
+   "definition": "Institución donde se estudia una carrera después del secundario.",
+   "difficulty": "facil",
+   "category": "general"
+  },
+  {
+   "id": "U-uranio",
+   "letter": "U",
+   "type": "empieza",
+   "answer": "uranio",
+   "alt": [],
+   "definition": "Elemento químico radiactivo usado como combustible nuclear.",
+   "difficulty": "dificil",
+   "category": "ciencia"
+  },
+  {
+   "id": "U-pulpo",
+   "letter": "U",
+   "type": "contiene",
+   "answer": "pulpo",
+   "alt": [],
+   "definition": "Molusco marino de ocho brazos.",
+   "difficulty": "facil",
+   "category": "naturaleza"
+  },
+  {
+   "id": "U-uniforme",
+   "letter": "U",
+   "type": "empieza",
+   "answer": "uniforme",
+   "alt": [],
+   "definition": "Ropa igual que usan los alumnos de una escuela o los jugadores de un equipo.",
+   "difficulty": "facil",
+   "category": "general"
   },
   {
    "id": "V-vaca",
@@ -1167,7 +5307,8 @@
    "answer": "vaca",
    "alt": [],
    "definition": "Animal de granja que da leche y hace «mu».",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "V-volcan",
@@ -1176,7 +5317,8 @@
    "answer": "volcán",
    "alt": [],
    "definition": "Montaña que puede expulsar lava, cenizas y gases.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "geografia"
   },
   {
    "id": "V-verano",
@@ -1185,7 +5327,8 @@
    "answer": "verano",
    "alt": [],
    "definition": "Estación más calurosa del año.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "general"
   },
   {
    "id": "V-violin",
@@ -1194,7 +5337,8 @@
    "answer": "violín",
    "alt": [],
    "definition": "Instrumento de cuatro cuerdas que se toca con un arco.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "musica"
   },
   {
    "id": "V-virus",
@@ -1203,7 +5347,8 @@
    "answer": "virus",
    "alt": [],
    "definition": "Microorganismo que causa enfermedades como la gripe.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "ciencia"
   },
   {
    "id": "V-vicuña",
@@ -1212,7 +5357,209 @@
    "answer": "vicuña",
    "alt": [],
    "definition": "Pariente silvestre de la llama que vive en los Andes y tiene una de las lanas más finas del mundo.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "naturaleza"
+  },
+  {
+   "id": "V-vader",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "Vader",
+   "alt": [
+    "darth vader"
+   ],
+   "definition": "Apellido de Darth, el villano de casco negro de «La guerra de las galaxias».",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "V-volveralfuturo",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "Volver al futuro",
+   "alt": [],
+   "definition": "Película de 1985 en la que Marty McFly viaja en el tiempo en un DeLorean.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "V-villano",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "villano",
+   "alt": [],
+   "definition": "Personaje malvado de una película.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "V-vampiro",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "vampiro",
+   "alt": [],
+   "definition": "Criatura de las películas de terror que chupa sangre; Drácula es el más famoso.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "V-vals",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "vals",
+   "alt": [],
+   "definition": "Baile de salón de tres tiempos, típico de las fiestas de 15.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "V-vivaldi",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "Vivaldi",
+   "alt": [],
+   "definition": "Apellido del compositor de «Las cuatro estaciones».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "V-violonchelo",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "violonchelo",
+   "alt": [
+    "chelo",
+    "cello",
+    "violoncelo"
+   ],
+   "definition": "Instrumento de cuerda grande que se toca sentado, entre las piernas.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "V-vinilo",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "vinilo",
+   "alt": [
+    "vinilos"
+   ],
+   "definition": "Disco negro que se escucha en un tocadiscos.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "V-vicentico",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "Vicentico",
+   "alt": [],
+   "definition": "Nombre artístico del cantante de Los Fabulosos Cadillacs.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "V-voley",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "vóley",
+   "alt": [
+    "voleibol",
+    "voley",
+    "volley",
+    "volleyball"
+   ],
+   "definition": "Deporte de red en el que la pelota no puede tocar el piso.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "V-velez",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "Vélez",
+   "alt": [
+    "velez sarsfield"
+   ],
+   "definition": "Club de fútbol del barrio de Liniers.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "V-venecia",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "Venecia",
+   "alt": [],
+   "definition": "Ciudad italiana de canales y góndolas.",
+   "difficulty": "facil",
+   "category": "geografia"
+  },
+  {
+   "id": "V-vaticano",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "Vaticano",
+   "alt": [
+    "ciudad del vaticano"
+   ],
+   "definition": "País más pequeño del mundo, donde vive el Papa.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "V-vainilla",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "vainilla",
+   "alt": [],
+   "definition": "Sabor de helado blanco que viene de una orquídea.",
+   "difficulty": "media",
+   "category": "comida"
+  },
+  {
+   "id": "V-verdura",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "verdura",
+   "alt": [
+    "verduras"
+   ],
+   "definition": "Hortaliza, en especial la de hojas verdes.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "V-vikingo",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "vikingo",
+   "alt": [
+    "vikingos"
+   ],
+   "definition": "Guerrero y navegante escandinavo de la Edad Media.",
+   "difficulty": "media",
+   "category": "historia"
+  },
+  {
+   "id": "V-vacuna",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "vacuna",
+   "alt": [],
+   "definition": "Preparado que nos protege de una enfermedad.",
+   "difficulty": "facil",
+   "category": "ciencia"
+  },
+  {
+   "id": "V-vibora",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "víbora",
+   "alt": [],
+   "definition": "Serpiente venenosa.",
+   "difficulty": "facil",
+   "category": "naturaleza"
   },
   {
    "id": "X-taxi",
@@ -1221,7 +5568,8 @@
    "answer": "taxi",
    "alt": [],
    "definition": "Auto con chofer que se paga para viajar por la ciudad.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "general"
   },
   {
    "id": "X-examen",
@@ -1230,7 +5578,8 @@
    "answer": "examen",
    "alt": [],
    "definition": "Prueba que se toma en la escuela para evaluar lo aprendido.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "general"
   },
   {
    "id": "X-boxeo",
@@ -1239,7 +5588,8 @@
    "answer": "boxeo",
    "alt": [],
    "definition": "Deporte de combate en el que se pelea con guantes.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "deportes"
   },
   {
    "id": "X-xilofono",
@@ -1250,7 +5600,8 @@
     "xilofón"
    ],
    "definition": "Instrumento de percusión con láminas que se golpean con palillos.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "musica"
   },
   {
    "id": "X-oxigeno",
@@ -1259,7 +5610,8 @@
    "answer": "oxígeno",
    "alt": [],
    "definition": "Gas del aire que necesitamos respirar para vivir.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "ciencia"
   },
   {
    "id": "X-xenofobia",
@@ -1268,7 +5620,164 @@
    "answer": "xenofobia",
    "alt": [],
    "definition": "Rechazo u odio hacia las personas extranjeras.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "general"
+  },
+  {
+   "id": "X-xmen",
+   "letter": "X",
+   "type": "empieza",
+   "answer": "X-Men",
+   "alt": [
+    "xmen",
+    "x men"
+   ],
+   "definition": "Grupo de superhéroes mutantes de Marvel.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "X-xavier",
+   "letter": "X",
+   "type": "empieza",
+   "answer": "Xavier",
+   "alt": [],
+   "definition": "Apellido del profesor Charles, líder de los mutantes de Marvel.",
+   "difficulty": "dificil",
+   "category": "cine"
+  },
+  {
+   "id": "X-rex",
+   "letter": "X",
+   "type": "contiene",
+   "answer": "Rex",
+   "alt": [],
+   "definition": "Dinosaurio verde y miedoso de «Toy Story».",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "X-asterix",
+   "letter": "X",
+   "type": "contiene",
+   "answer": "Astérix",
+   "alt": [],
+   "definition": "Pequeño guerrero galo bigotudo, amigo de Obélix.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "X-xuxa",
+   "letter": "X",
+   "type": "empieza",
+   "answer": "Xuxa",
+   "alt": [],
+   "definition": "Presentadora y cantante brasileña de programas infantiles de los 80 y los 90.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "X-sexteto",
+   "letter": "X",
+   "type": "contiene",
+   "answer": "sexteto",
+   "alt": [],
+   "definition": "Conjunto de seis músicos.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "X-expulsion",
+   "letter": "X",
+   "type": "contiene",
+   "answer": "expulsión",
+   "alt": [],
+   "definition": "Lo que ocurre cuando el árbitro le muestra la tarjeta roja a un jugador.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "X-texas",
+   "letter": "X",
+   "type": "contiene",
+   "answer": "Texas",
+   "alt": [],
+   "definition": "Estado más grande de Estados Unidos después de Alaska.",
+   "difficulty": "dificil",
+   "category": "geografia"
+  },
+  {
+   "id": "X-mixto",
+   "letter": "X",
+   "type": "contiene",
+   "answer": "mixto",
+   "alt": [],
+   "definition": "Tostado ___: el de jamón y queso.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "X-exprimidor",
+   "letter": "X",
+   "type": "contiene",
+   "answer": "exprimidor",
+   "alt": [],
+   "definition": "Utensilio para sacarles el jugo a las naranjas.",
+   "difficulty": "media",
+   "category": "comida"
+  },
+  {
+   "id": "X-excursion",
+   "letter": "X",
+   "type": "contiene",
+   "answer": "excursión",
+   "alt": [],
+   "definition": "Salida o paseo de un grupo, por ejemplo de la escuela.",
+   "difficulty": "media",
+   "category": "general"
+  },
+  {
+   "id": "X-extintor",
+   "letter": "X",
+   "type": "contiene",
+   "answer": "extintor",
+   "alt": [
+    "matafuegos",
+    "matafuego"
+   ],
+   "definition": "Aparato rojo que sirve para apagar incendios.",
+   "difficulty": "facil",
+   "category": "general"
+  },
+  {
+   "id": "X-explorador",
+   "letter": "X",
+   "type": "contiene",
+   "answer": "explorador",
+   "alt": [],
+   "definition": "Persona que viaja para descubrir lugares desconocidos.",
+   "difficulty": "media",
+   "category": "historia"
+  },
+  {
+   "id": "X-experimento",
+   "letter": "X",
+   "type": "contiene",
+   "answer": "experimento",
+   "alt": [],
+   "definition": "Prueba que hacen los científicos para comprobar una idea.",
+   "difficulty": "media",
+   "category": "ciencia"
+  },
+  {
+   "id": "X-torax",
+   "letter": "X",
+   "type": "contiene",
+   "answer": "tórax",
+   "alt": [],
+   "definition": "Parte del cuerpo entre el cuello y el abdomen.",
+   "difficulty": "media",
+   "category": "ciencia"
   },
   {
    "id": "Y-yema",
@@ -1277,7 +5786,8 @@
    "answer": "yema",
    "alt": [],
    "definition": "Parte amarilla del huevo.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "comida"
   },
   {
    "id": "Y-yogur",
@@ -1289,7 +5799,8 @@
     "yogourt"
    ],
    "definition": "Alimento cremoso hecho con leche fermentada.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "comida"
   },
   {
    "id": "Y-yate",
@@ -1298,7 +5809,8 @@
    "answer": "yate",
    "alt": [],
    "definition": "Embarcación de recreo o de lujo.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "general"
   },
   {
    "id": "Y-yerba",
@@ -1307,7 +5819,8 @@
    "answer": "yerba",
    "alt": [],
    "definition": "Hojas secas y molidas con las que se prepara el mate.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "comida"
   },
   {
    "id": "Y-yaguarete",
@@ -1316,7 +5829,8 @@
    "answer": "yaguareté",
    "alt": [],
    "definition": "Nombre de origen guaraní del jaguar.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "naturaleza"
   },
   {
    "id": "Y-yodo",
@@ -1325,7 +5839,214 @@
    "answer": "yodo",
    "alt": [],
    "definition": "Elemento químico cuya tintura se usaba para desinfectar heridas.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "ciencia"
+  },
+  {
+   "id": "Y-yoda",
+   "letter": "Y",
+   "type": "empieza",
+   "answer": "Yoda",
+   "alt": [],
+   "definition": "Pequeño maestro Jedi verde que habla al revés.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "Y-payaso",
+   "letter": "Y",
+   "type": "contiene",
+   "answer": "payaso",
+   "alt": [],
+   "definition": "Personaje de circo con nariz roja.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "Y-rayo",
+   "letter": "Y",
+   "type": "contiene",
+   "answer": "Rayo",
+   "alt": [
+    "rayo mcqueen"
+   ],
+   "definition": "Nombre del auto de carreras rojo protagonista de «Cars»: ___ McQueen.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "Y-yeti",
+   "letter": "Y",
+   "type": "empieza",
+   "answer": "yeti",
+   "alt": [],
+   "definition": "Monstruo de las nieves del Himalaya.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "Y-yupanqui",
+   "letter": "Y",
+   "type": "empieza",
+   "answer": "Yupanqui",
+   "alt": [],
+   "definition": "Apellido de Atahualpa, gran figura del folklore argentino.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "Y-yankee",
+   "letter": "Y",
+   "type": "empieza",
+   "answer": "Yankee",
+   "alt": [
+    "daddy yankee"
+   ],
+   "definition": "Daddy ___: cantante puertorriqueño de «Gasolina».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "Y-yesterday",
+   "letter": "Y",
+   "type": "empieza",
+   "answer": "Yesterday",
+   "alt": [],
+   "definition": "Canción de 1965 de los Beatles, compuesta por Paul McCartney, de las más versionadas de la historia.",
+   "difficulty": "dificil",
+   "category": "musica"
+  },
+  {
+   "id": "Y-payador",
+   "letter": "Y",
+   "type": "contiene",
+   "answer": "payador",
+   "alt": [],
+   "definition": "Cantor gaucho que improvisa versos con la guitarra.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "Y-hoyo",
+   "letter": "Y",
+   "type": "contiene",
+   "answer": "hoyo",
+   "alt": [],
+   "definition": "Agujero del golf donde hay que embocar la pelota.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "Y-ayrton",
+   "letter": "Y",
+   "type": "contiene",
+   "answer": "Ayrton",
+   "alt": [],
+   "definition": "Nombre de pila de Senna, legendario piloto brasileño de Fórmula 1.",
+   "difficulty": "dificil",
+   "category": "deportes"
+  },
+  {
+   "id": "Y-rayuela",
+   "letter": "Y",
+   "type": "contiene",
+   "answer": "rayuela",
+   "alt": [],
+   "definition": "Juego de saltar en casillas dibujadas en el piso.",
+   "difficulty": "facil",
+   "category": "general"
+  },
+  {
+   "id": "Y-paraguay",
+   "letter": "Y",
+   "type": "contiene",
+   "answer": "Paraguay",
+   "alt": [],
+   "definition": "País vecino cuya capital es Asunción.",
+   "difficulty": "facil",
+   "category": "geografia"
+  },
+  {
+   "id": "Y-nuevayork",
+   "letter": "Y",
+   "type": "contiene",
+   "answer": "Nueva York",
+   "alt": [],
+   "definition": "Ciudad de la Estatua de la Libertad.",
+   "difficulty": "facil",
+   "category": "geografia"
+  },
+  {
+   "id": "Y-mayonesa",
+   "letter": "Y",
+   "type": "contiene",
+   "answer": "mayonesa",
+   "alt": [],
+   "definition": "Salsa de huevo y aceite.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "Y-yuca",
+   "letter": "Y",
+   "type": "empieza",
+   "answer": "yuca",
+   "alt": [],
+   "definition": "Raíz comestible también llamada mandioca.",
+   "difficulty": "media",
+   "category": "comida"
+  },
+  {
+   "id": "Y-yacare",
+   "letter": "Y",
+   "type": "empieza",
+   "answer": "yacaré",
+   "alt": [],
+   "definition": "Caimán sudamericano de los esteros del Iberá.",
+   "difficulty": "media",
+   "category": "naturaleza"
+  },
+  {
+   "id": "Y-mayo",
+   "letter": "Y",
+   "type": "contiene",
+   "answer": "mayo",
+   "alt": [],
+   "definition": "Mes de la Revolución de 1810.",
+   "difficulty": "facil",
+   "category": "historia"
+  },
+  {
+   "id": "Y-yunque",
+   "letter": "Y",
+   "type": "empieza",
+   "answer": "yunque",
+   "alt": [],
+   "definition": "Bloque de hierro sobre el que el herrero golpea el metal.",
+   "difficulty": "dificil",
+   "category": "general"
+  },
+  {
+   "id": "Y-ayer",
+   "letter": "Y",
+   "type": "contiene",
+   "answer": "ayer",
+   "alt": [],
+   "definition": "El día anterior a hoy.",
+   "difficulty": "facil",
+   "category": "general"
+  },
+  {
+   "id": "Y-yoyo",
+   "letter": "Y",
+   "type": "empieza",
+   "answer": "yoyó",
+   "alt": [
+    "yoyo"
+   ],
+   "definition": "Juguete que sube y baja enrollándose en un hilo.",
+   "difficulty": "facil",
+   "category": "general"
   },
   {
    "id": "Z-zapato",
@@ -1334,7 +6055,8 @@
    "answer": "zapato",
    "alt": [],
    "definition": "Calzado que cubre el pie.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "general"
   },
   {
    "id": "Z-zanahoria",
@@ -1343,7 +6065,8 @@
    "answer": "zanahoria",
    "alt": [],
    "definition": "Hortaliza naranja y alargada que, según los dibujos, comen los conejos.",
-   "difficulty": "facil"
+   "difficulty": "facil",
+   "category": "comida"
   },
   {
    "id": "Z-zorro",
@@ -1352,7 +6075,8 @@
    "answer": "zorro",
    "alt": [],
    "definition": "Mamífero de cola peluda y hocico puntiagudo, famoso en los cuentos por ser astuto.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "naturaleza"
   },
   {
    "id": "Z-zoologico",
@@ -1363,7 +6087,8 @@
     "zoo"
    ],
    "definition": "Lugar donde se exhiben animales de todo el mundo.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "naturaleza"
   },
   {
    "id": "Z-zapallo",
@@ -1372,7 +6097,8 @@
    "answer": "zapallo",
    "alt": [],
    "definition": "Hortaliza de cáscara dura y pulpa naranja con la que se hace puré; en España la llaman calabaza.",
-   "difficulty": "media"
+   "difficulty": "media",
+   "category": "comida"
   },
   {
    "id": "Z-zodiaco",
@@ -1383,7 +6109,216 @@
     "zodiaco"
    ],
    "definition": "Franja del cielo dividida en doce signos, como Aries o Leo.",
-   "difficulty": "dificil"
+   "difficulty": "dificil",
+   "category": "ciencia"
+  },
+  {
+   "id": "Z-zootopia",
+   "letter": "Z",
+   "type": "empieza",
+   "answer": "Zootopia",
+   "alt": [
+    "zootropolis"
+   ],
+   "definition": "Película de Disney de 2016 sobre una ciudad de animales con una coneja policía.",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "Z-zurg",
+   "letter": "Z",
+   "type": "empieza",
+   "answer": "Zurg",
+   "alt": [],
+   "definition": "Emperador malvado, enemigo de Buzz Lightyear.",
+   "difficulty": "dificil",
+   "category": "cine"
+  },
+  {
+   "id": "Z-buzz",
+   "letter": "Z",
+   "type": "contiene",
+   "answer": "Buzz",
+   "alt": [],
+   "definition": "Nombre de pila de Lightyear, el astronauta de «Toy Story».",
+   "difficulty": "media",
+   "category": "cine"
+  },
+  {
+   "id": "Z-hechizo",
+   "letter": "Z",
+   "type": "contiene",
+   "answer": "hechizo",
+   "alt": [],
+   "definition": "Encantamiento que hace un mago o una bruja.",
+   "difficulty": "facil",
+   "category": "cine"
+  },
+  {
+   "id": "Z-zamba",
+   "letter": "Z",
+   "type": "empieza",
+   "answer": "zamba",
+   "alt": [],
+   "definition": "Danza folklórica argentina que se baila con pañuelos.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "Z-zarzuela",
+   "letter": "Z",
+   "type": "empieza",
+   "answer": "zarzuela",
+   "alt": [],
+   "definition": "Género teatral y musical español, con partes habladas y cantadas.",
+   "difficulty": "dificil",
+   "category": "musica"
+  },
+  {
+   "id": "Z-zeppelin",
+   "letter": "Z",
+   "type": "empieza",
+   "answer": "Zeppelin",
+   "alt": [
+    "led zeppelin"
+   ],
+   "definition": "Led ___: banda británica de «Stairway to Heaven».",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "Z-cruz",
+   "letter": "Z",
+   "type": "contiene",
+   "answer": "Cruz",
+   "alt": [
+    "celia cruz"
+   ],
+   "definition": "Apellido de Celia, la reina de la salsa.",
+   "difficulty": "media",
+   "category": "musica"
+  },
+  {
+   "id": "Z-voz",
+   "letter": "Z",
+   "type": "contiene",
+   "answer": "voz",
+   "alt": [],
+   "definition": "Sonido que produce una persona al hablar o al cantar.",
+   "difficulty": "facil",
+   "category": "musica"
+  },
+  {
+   "id": "Z-zurdo",
+   "letter": "Z",
+   "type": "empieza",
+   "answer": "zurdo",
+   "alt": [],
+   "definition": "Jugador que le pega con la pierna izquierda, como Messi.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "Z-ajedrez",
+   "letter": "Z",
+   "type": "contiene",
+   "answer": "ajedrez",
+   "alt": [],
+   "definition": "Juego de tablero con rey, reina, alfiles y caballos.",
+   "difficulty": "facil",
+   "category": "deportes"
+  },
+  {
+   "id": "Z-zidane",
+   "letter": "Z",
+   "type": "empieza",
+   "answer": "Zidane",
+   "alt": [],
+   "definition": "Apellido de Zinedine, astro francés campeón del mundo en 1998.",
+   "difficulty": "media",
+   "category": "deportes"
+  },
+  {
+   "id": "Z-suiza",
+   "letter": "Z",
+   "type": "contiene",
+   "answer": "Suiza",
+   "alt": [],
+   "definition": "País europeo de los Alpes, famoso por sus relojes y chocolates.",
+   "difficulty": "media",
+   "category": "geografia"
+  },
+  {
+   "id": "Z-arroz",
+   "letter": "Z",
+   "type": "contiene",
+   "answer": "arroz",
+   "alt": [],
+   "definition": "Grano blanco con el que se hacen el risotto y la paella.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "Z-taza",
+   "letter": "Z",
+   "type": "contiene",
+   "answer": "taza",
+   "alt": [],
+   "definition": "Recipiente con asa para tomar café o té.",
+   "difficulty": "facil",
+   "category": "comida"
+  },
+  {
+   "id": "Z-merluza",
+   "letter": "Z",
+   "type": "contiene",
+   "answer": "merluza",
+   "alt": [],
+   "definition": "Pescado blanco muy consumido en la Argentina.",
+   "difficulty": "media",
+   "category": "comida"
+  },
+  {
+   "id": "Z-azteca",
+   "letter": "Z",
+   "type": "contiene",
+   "answer": "azteca",
+   "alt": [
+    "aztecas"
+   ],
+   "definition": "Pueblo que fundó Tenochtitlan, en el actual México.",
+   "difficulty": "media",
+   "category": "historia"
+  },
+  {
+   "id": "Z-raiz",
+   "letter": "Z",
+   "type": "contiene",
+   "answer": "raíz",
+   "alt": [],
+   "definition": "Parte de la planta que crece bajo tierra.",
+   "difficulty": "facil",
+   "category": "ciencia"
+  },
+  {
+   "id": "Z-lechuza",
+   "letter": "Z",
+   "type": "contiene",
+   "answer": "lechuza",
+   "alt": [],
+   "definition": "Ave nocturna de cara blanca con forma de corazón.",
+   "difficulty": "media",
+   "category": "naturaleza"
+  },
+  {
+   "id": "Z-pez",
+   "letter": "Z",
+   "type": "contiene",
+   "answer": "pez",
+   "alt": [],
+   "definition": "Animal que vive en el agua y respira por branquias.",
+   "difficulty": "facil",
+   "category": "naturaleza"
   }
  ]
 }
