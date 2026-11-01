@@ -23,7 +23,7 @@ export async function setup(page: Page, opts: { players: number; names?: string[
 }
 
 export async function phase(page: Page) {
-  return page.getByTestId('game').getAttribute('data-phase');
+  return page.getByTestId('game').getAttribute('data-phase', { timeout: 500 });
 }
 
 export async function currentAnswer(page: Page): Promise<string> {

@@ -75,7 +75,7 @@ test('capturas', async ({ browser }) => {
   await configure(p, 6);
   await p.getByTestId('start').click();
   for (let i = 0; i < 400 && !(await p.getByTestId('final').isVisible()); i++) {
-    const ph = await p.getByTestId('game').getAttribute('data-phase').catch(() => null);
+    const ph = await p.getByTestId('game').getAttribute('data-phase', { timeout: 500 }).catch(() => null);
     if (ph === 'ready') await p.getByTestId('start-turn').click();
     else if (ph === 'playing') await p.getByTestId(i % 9 === 4 ? 'btn-wrong' : i % 7 === 1 ? 'btn-pass' : 'btn-correct').click();
     else await p.waitForTimeout(150);
