@@ -1,0 +1,1389 @@
+{
+ "version": 1,
+ "questions": [
+  {
+   "id": "A-abeja",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "abeja",
+   "alt": [],
+   "definition": "Insecto volador que fabrica miel y cera.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "A-avion",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "avión",
+   "alt": [],
+   "definition": "Vehículo con alas y motores que vuela llevando pasajeros.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "A-aguila",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "águila",
+   "alt": [],
+   "definition": "Ave rapaz de gran tamaño y vista muy aguda, presente en muchos escudos nacionales.",
+   "difficulty": "media"
+  },
+  {
+   "id": "A-arpa",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "arpa",
+   "alt": [],
+   "definition": "Instrumento musical de cuerdas, de forma triangular, que se toca pulsando con los dedos.",
+   "difficulty": "media"
+  },
+  {
+   "id": "A-asteroide",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "asteroide",
+   "alt": [],
+   "definition": "Cuerpo rocoso más chico que un planeta que gira alrededor del Sol; muchos están entre Marte y Júpiter.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "A-archipielago",
+   "letter": "A",
+   "type": "empieza",
+   "answer": "archipiélago",
+   "alt": [],
+   "definition": "Conjunto de islas cercanas entre sí.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "B-bicicleta",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "bicicleta",
+   "alt": [],
+   "definition": "Vehículo de dos ruedas que se mueve pedaleando.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "B-ballena",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "ballena",
+   "alt": [],
+   "definition": "Enorme mamífero marino; una de sus especies, la azul, es el animal más grande que existe.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "B-bañera",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "bañera",
+   "alt": [],
+   "definition": "Recipiente grande del baño que se llena de agua para bañarse sumergido.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "B-buho",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "búho",
+   "alt": [],
+   "definition": "Ave nocturna de ojos grandes que puede girar mucho la cabeza.",
+   "difficulty": "media"
+  },
+  {
+   "id": "B-biologia",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "biología",
+   "alt": [],
+   "definition": "Ciencia que estudia los seres vivos.",
+   "difficulty": "media"
+  },
+  {
+   "id": "B-barometro",
+   "letter": "B",
+   "type": "empieza",
+   "answer": "barómetro",
+   "alt": [],
+   "definition": "Instrumento que sirve para medir la presión atmosférica.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "C-conejo",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "conejo",
+   "alt": [],
+   "definition": "Animal de orejas largas que se mueve dando saltos.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "C-cafe",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "café",
+   "alt": [],
+   "definition": "Bebida caliente y oscura que se prepara con granos tostados y molidos.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "C-corazon",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "corazón",
+   "alt": [],
+   "definition": "Órgano que bombea la sangre por todo el cuerpo.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "C-condor",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "cóndor",
+   "alt": [],
+   "definition": "Ave de los Andes, una de las aves voladoras más grandes del mundo.",
+   "difficulty": "media"
+  },
+  {
+   "id": "C-camaleon",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "camaleón",
+   "alt": [],
+   "definition": "Reptil que cambia de color para camuflarse y mueve cada ojo por separado.",
+   "difficulty": "media"
+  },
+  {
+   "id": "C-caracas",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "Caracas",
+   "alt": [],
+   "definition": "Capital de Venezuela.",
+   "difficulty": "media"
+  },
+  {
+   "id": "C-cubo",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "cubo",
+   "alt": [],
+   "definition": "Cuerpo geométrico con seis caras cuadradas iguales.",
+   "difficulty": "media"
+  },
+  {
+   "id": "C-catalizador",
+   "letter": "C",
+   "type": "empieza",
+   "answer": "catalizador",
+   "alt": [],
+   "definition": "Sustancia que acelera una reacción química sin consumirse en ella.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "D-delfin",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "delfín",
+   "alt": [],
+   "definition": "Mamífero marino muy inteligente que salta fuera del agua y se comunica con silbidos.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "D-dinosaurio",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "dinosaurio",
+   "alt": [],
+   "definition": "Reptil, muchas veces gigantesco, que se extinguió hace unos 66 millones de años.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "D-diccionario",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "diccionario",
+   "alt": [],
+   "definition": "Libro que reúne las palabras de un idioma ordenadas alfabéticamente con su significado.",
+   "difficulty": "media"
+  },
+  {
+   "id": "D-domino",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "dominó",
+   "alt": [],
+   "definition": "Juego de mesa con fichas rectangulares marcadas con puntos.",
+   "difficulty": "media"
+  },
+  {
+   "id": "D-decada",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "década",
+   "alt": [],
+   "definition": "Período de diez años.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "D-dique",
+   "letter": "D",
+   "type": "empieza",
+   "answer": "dique",
+   "alt": [],
+   "definition": "Muro construido para contener o encauzar el agua.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "E-elefante",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "elefante",
+   "alt": [],
+   "definition": "Mamífero terrestre más grande, con trompa y colmillos.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "E-escalera",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "escalera",
+   "alt": [],
+   "definition": "Serie de escalones que sirve para subir o bajar.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "E-escritor",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "escritor",
+   "alt": [],
+   "definition": "Persona que escribe libros, cuentos o novelas.",
+   "difficulty": "media"
+  },
+  {
+   "id": "E-ecuador",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "ecuador",
+   "alt": [],
+   "definition": "Línea imaginaria que divide la Tierra en hemisferio norte y hemisferio sur.",
+   "difficulty": "media"
+  },
+  {
+   "id": "E-eco",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "eco",
+   "alt": [],
+   "definition": "Repetición de un sonido que rebota en una superficie, como en una montaña.",
+   "difficulty": "media"
+  },
+  {
+   "id": "E-eclipse",
+   "letter": "E",
+   "type": "empieza",
+   "answer": "eclipse",
+   "alt": [],
+   "definition": "Fenómeno en el que un astro tapa total o parcialmente a otro, como la Luna al Sol.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "F-frutilla",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "frutilla",
+   "alt": [
+    "fresa"
+   ],
+   "definition": "Fruta roja y chiquita con las semillas por fuera.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "F-futbol",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "fútbol",
+   "alt": [],
+   "definition": "Deporte en el que dos equipos de once jugadores intentan meter una pelota en el arco rival.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "F-faro",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "faro",
+   "alt": [],
+   "definition": "Torre junto al mar con una luz potente que guía a los barcos de noche.",
+   "difficulty": "media"
+  },
+  {
+   "id": "F-flamenco",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "flamenco",
+   "alt": [],
+   "definition": "Ave rosada de patas muy largas que suele pararse en una sola.",
+   "difficulty": "media"
+  },
+  {
+   "id": "F-fosil",
+   "letter": "F",
+   "type": "empieza",
+   "answer": "fósil",
+   "alt": [],
+   "definition": "Resto de un ser vivo muy antiguo que quedó conservado en una roca.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "G-gato",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "gato",
+   "alt": [],
+   "definition": "Felino doméstico que maúlla.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "G-gallina",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "gallina",
+   "alt": [],
+   "definition": "Ave de granja que pone huevos.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "G-guitarra",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "guitarra",
+   "alt": [],
+   "definition": "Instrumento musical de seis cuerdas que se toca rasgueando o punteando.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "G-glaciar",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "glaciar",
+   "alt": [],
+   "definition": "Gran masa de hielo que se desplaza lentamente por una montaña, como el Perito Moreno.",
+   "difficulty": "media"
+  },
+  {
+   "id": "G-geografia",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "geografía",
+   "alt": [],
+   "definition": "Ciencia que estudia la superficie de la Tierra, sus regiones, ríos y montañas.",
+   "difficulty": "media"
+  },
+  {
+   "id": "G-gravedad",
+   "letter": "G",
+   "type": "empieza",
+   "answer": "gravedad",
+   "alt": [],
+   "definition": "Fuerza que atrae los cuerpos hacia el centro de la Tierra.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "H-hielo",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "hielo",
+   "alt": [],
+   "definition": "Agua congelada.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "H-hormiga",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "hormiga",
+   "alt": [],
+   "definition": "Insecto pequeño que vive en colonias y es muy trabajador.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "H-hospital",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "hospital",
+   "alt": [],
+   "definition": "Lugar donde se atiende y se cura a los enfermos.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "H-hipopotamo",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "hipopótamo",
+   "alt": [],
+   "definition": "Mamífero africano enorme que pasa gran parte del día dentro del agua.",
+   "difficulty": "media"
+  },
+  {
+   "id": "H-hornero",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "hornero",
+   "alt": [],
+   "definition": "Ave considerada símbolo de la Argentina, famosa por construir su nido de barro.",
+   "difficulty": "media"
+  },
+  {
+   "id": "H-hipotenusa",
+   "letter": "H",
+   "type": "empieza",
+   "answer": "hipotenusa",
+   "alt": [],
+   "definition": "Lado más largo de un triángulo rectángulo, opuesto al ángulo recto.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "I-isla",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "isla",
+   "alt": [],
+   "definition": "Porción de tierra rodeada de agua por todas partes.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "I-iglesia",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "iglesia",
+   "alt": [],
+   "definition": "Templo cristiano donde se celebra misa.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "I-iguana",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "iguana",
+   "alt": [],
+   "definition": "Reptil americano parecido a un lagarto grande, con una cresta en el lomo.",
+   "difficulty": "media"
+  },
+  {
+   "id": "I-iglu",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "iglú",
+   "alt": [],
+   "definition": "Casa con forma de cúpula hecha con bloques de hielo o nieve.",
+   "difficulty": "media"
+  },
+  {
+   "id": "I-iman",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "imán",
+   "alt": [],
+   "definition": "Objeto que atrae el hierro.",
+   "difficulty": "media"
+  },
+  {
+   "id": "I-ironia",
+   "letter": "I",
+   "type": "empieza",
+   "answer": "ironía",
+   "alt": [],
+   "definition": "Forma de expresarse que da a entender lo contrario de lo que se dice, a menudo en tono de burla.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "J-jirafa",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "jirafa",
+   "alt": [],
+   "definition": "Animal africano de cuello larguísimo.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "J-jardin",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "jardín",
+   "alt": [],
+   "definition": "Terreno con plantas y flores, muchas veces alrededor de una casa.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "J-jaguar",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "jaguar",
+   "alt": [],
+   "definition": "Felino manchado, el más grande del continente americano.",
+   "difficulty": "media"
+  },
+  {
+   "id": "J-jupiter",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "Júpiter",
+   "alt": [],
+   "definition": "Planeta más grande del sistema solar.",
+   "difficulty": "media"
+  },
+  {
+   "id": "J-juez",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "juez",
+   "alt": [],
+   "definition": "Persona que en un tribunal decide y dicta sentencia.",
+   "difficulty": "media"
+  },
+  {
+   "id": "J-jeroglifico",
+   "letter": "J",
+   "type": "empieza",
+   "answer": "jeroglífico",
+   "alt": [],
+   "definition": "Tipo de escritura con dibujos y símbolos que usaban los antiguos egipcios.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "L-luna",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "luna",
+   "alt": [],
+   "definition": "Satélite natural de la Tierra.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "L-leon",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "león",
+   "alt": [],
+   "definition": "Felino de melena al que se llama rey de la selva.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "L-limon",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "limón",
+   "alt": [],
+   "definition": "Fruta cítrica amarilla y muy ácida.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "L-lava",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "lava",
+   "alt": [],
+   "definition": "Roca fundida que sale de un volcán en erupción.",
+   "difficulty": "media"
+  },
+  {
+   "id": "L-llama",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "llama",
+   "alt": [],
+   "definition": "Animal de los Andes, pariente del camello pero sin joroba, usado para cargar.",
+   "difficulty": "media"
+  },
+  {
+   "id": "L-lira",
+   "letter": "L",
+   "type": "empieza",
+   "answer": "lira",
+   "alt": [],
+   "definition": "Antiguo instrumento de cuerda con forma de U, asociado a la poesía de la Grecia clásica.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "M-manzana",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "manzana",
+   "alt": [],
+   "definition": "Fruta roja o verde; una envenenada aparece en el cuento de Blancanieves.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "M-mono",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "mono",
+   "alt": [],
+   "definition": "Animal que trepa a los árboles y, en los dibujos, siempre come bananas.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "M-martillo",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "martillo",
+   "alt": [],
+   "definition": "Herramienta con mango y cabeza de metal que se usa para clavar clavos.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "M-mate",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "mate",
+   "alt": [],
+   "definition": "Infusión típica rioplatense que se toma con bombilla.",
+   "difficulty": "media"
+  },
+  {
+   "id": "M-murcielago",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "murciélago",
+   "alt": [],
+   "definition": "Único mamífero capaz de volar; sale de noche y se orienta por el eco de sus chillidos.",
+   "difficulty": "media"
+  },
+  {
+   "id": "M-medusa",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "medusa",
+   "alt": [],
+   "definition": "Animal marino de cuerpo gelatinoso y tentáculos que pueden picar.",
+   "difficulty": "media"
+  },
+  {
+   "id": "M-meteorito",
+   "letter": "M",
+   "type": "empieza",
+   "answer": "meteorito",
+   "alt": [],
+   "definition": "Fragmento de roca del espacio que atraviesa la atmósfera y llega a caer en la Tierra.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "N-naranja",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "naranja",
+   "alt": [],
+   "definition": "Fruta cítrica redonda con la que se hace un jugo muy común en el desayuno.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "N-nieve",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "nieve",
+   "alt": [],
+   "definition": "Agua helada que cae del cielo en copos blancos.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "N-nido",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "nido",
+   "alt": [],
+   "definition": "Lugar que construyen los pájaros para poner sus huevos.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "N-nueve",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "nueve",
+   "alt": [],
+   "definition": "Número que sigue al ocho.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "N-neptuno",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "Neptuno",
+   "alt": [],
+   "definition": "Planeta del sistema solar más lejano del Sol.",
+   "difficulty": "media"
+  },
+  {
+   "id": "N-narrador",
+   "letter": "N",
+   "type": "empieza",
+   "answer": "narrador",
+   "alt": [],
+   "definition": "Voz que cuenta la historia en una novela o un cuento.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "Ñ-otoño",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "otoño",
+   "alt": [],
+   "definition": "Estación del año en la que se caen las hojas de los árboles.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "Ñ-niño",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "niño",
+   "alt": [],
+   "definition": "Persona de poca edad.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "Ñ-araña",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "araña",
+   "alt": [],
+   "definition": "Animal de ocho patas que teje telas.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "Ñ-montaña",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "montaña",
+   "alt": [],
+   "definition": "Gran elevación natural del terreno.",
+   "difficulty": "media"
+  },
+  {
+   "id": "Ñ-ñandu",
+   "letter": "Ñ",
+   "type": "empieza",
+   "answer": "ñandú",
+   "alt": [],
+   "definition": "Ave grande sudamericana que no vuela, parecida al avestruz.",
+   "difficulty": "media"
+  },
+  {
+   "id": "Ñ-ñoqui",
+   "letter": "Ñ",
+   "type": "empieza",
+   "answer": "ñoqui",
+   "alt": [
+    "ñoquis"
+   ],
+   "definition": "Bolita de masa de papa y harina que en la Argentina se come el día 29 de cada mes.",
+   "difficulty": "media"
+  },
+  {
+   "id": "Ñ-piraña",
+   "letter": "Ñ",
+   "type": "contiene",
+   "answer": "piraña",
+   "alt": [],
+   "definition": "Pez carnívoro de los ríos sudamericanos, con dientes muy afilados.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "O-oso",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "oso",
+   "alt": [],
+   "definition": "Mamífero grande y peludo; algunos hibernan durante el invierno.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "O-ojo",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "ojo",
+   "alt": [],
+   "definition": "Órgano de la vista.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "O-oveja",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "oveja",
+   "alt": [],
+   "definition": "Animal de granja del que se obtiene la lana.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "O-oceano",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "océano",
+   "alt": [],
+   "definition": "Gran masa de agua salada, como el Atlántico o el Pacífico.",
+   "difficulty": "media"
+  },
+  {
+   "id": "O-organo",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "órgano",
+   "alt": [],
+   "definition": "Instrumento musical de teclado y tubos, típico de las iglesias.",
+   "difficulty": "media"
+  },
+  {
+   "id": "O-opera",
+   "letter": "O",
+   "type": "empieza",
+   "answer": "ópera",
+   "alt": [],
+   "definition": "Obra de teatro en la que los personajes cantan acompañados por una orquesta.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "P-pinguino",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "pingüino",
+   "alt": [],
+   "definition": "Ave blanca y negra que no vuela y nada muy bien en mares fríos.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "P-pan",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "pan",
+   "alt": [],
+   "definition": "Alimento hecho con harina, agua, sal y levadura, cocido al horno.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "P-pintor",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "pintor",
+   "alt": [],
+   "definition": "Persona que pinta cuadros.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "P-papagayo",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "papagayo",
+   "alt": [],
+   "definition": "Ave tropical de plumaje muy colorido y pico curvo que puede imitar la voz humana.",
+   "difficulty": "media"
+  },
+  {
+   "id": "P-piramide",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "pirámide",
+   "alt": [],
+   "definition": "Gran construcción del antiguo Egipto con base cuadrada y caras triangulares.",
+   "difficulty": "media"
+  },
+  {
+   "id": "P-pentagono",
+   "letter": "P",
+   "type": "empieza",
+   "answer": "pentágono",
+   "alt": [],
+   "definition": "Polígono de cinco lados.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "Q-queso",
+   "letter": "Q",
+   "type": "empieza",
+   "answer": "queso",
+   "alt": [],
+   "definition": "Alimento que se elabora cuajando la leche.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "Q-quince",
+   "letter": "Q",
+   "type": "empieza",
+   "answer": "quince",
+   "alt": [],
+   "definition": "Número que sigue al catorce.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "Q-quimica",
+   "letter": "Q",
+   "type": "empieza",
+   "answer": "química",
+   "alt": [],
+   "definition": "Ciencia que estudia la composición de las sustancias y cómo se transforman.",
+   "difficulty": "media"
+  },
+  {
+   "id": "Q-quemadura",
+   "letter": "Q",
+   "type": "empieza",
+   "answer": "quemadura",
+   "alt": [],
+   "definition": "Lesión de la piel causada por el fuego o por algo muy caliente.",
+   "difficulty": "media"
+  },
+  {
+   "id": "Q-quetzal",
+   "letter": "Q",
+   "type": "empieza",
+   "answer": "quetzal",
+   "alt": [],
+   "definition": "Ave de plumas verdes brillantes, símbolo nacional de Guatemala.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "R-raton",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "ratón",
+   "alt": [],
+   "definition": "Animal pequeño de cola larga que en los dibujos animados siempre come queso.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "R-rosa",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "rosa",
+   "alt": [],
+   "definition": "Flor muy perfumada que tiene espinas en el tallo.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "R-reloj",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "reloj",
+   "alt": [],
+   "definition": "Aparato que marca la hora.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "R-rio",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "río",
+   "alt": [],
+   "definition": "Corriente natural de agua que desemboca en el mar, en un lago o en otra corriente.",
+   "difficulty": "media"
+  },
+  {
+   "id": "R-rinoceronte",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "rinoceronte",
+   "alt": [],
+   "definition": "Mamífero de piel gruesa con uno o dos cuernos sobre la nariz.",
+   "difficulty": "media"
+  },
+  {
+   "id": "R-reflejo",
+   "letter": "R",
+   "type": "empieza",
+   "answer": "reflejo",
+   "alt": [],
+   "definition": "Imagen que devuelve un espejo o la superficie del agua.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "S-sol",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "sol",
+   "alt": [],
+   "definition": "Estrella que da luz y calor a la Tierra.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "S-serpiente",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "serpiente",
+   "alt": [],
+   "definition": "Reptil sin patas que se desplaza arrastrándose.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "S-siglo",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "siglo",
+   "alt": [],
+   "definition": "Período de cien años.",
+   "difficulty": "media"
+  },
+  {
+   "id": "S-sahara",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "Sahara",
+   "alt": [],
+   "definition": "Desierto cálido más grande del mundo, en el norte de África.",
+   "difficulty": "media"
+  },
+  {
+   "id": "S-saturno",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "Saturno",
+   "alt": [],
+   "definition": "Planeta famoso por sus anillos.",
+   "difficulty": "media"
+  },
+  {
+   "id": "S-saxofon",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "saxofón",
+   "alt": [
+    "saxófono",
+    "saxo"
+   ],
+   "definition": "Instrumento de viento de metal, muy usado en el jazz.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "S-sinonimo",
+   "letter": "S",
+   "type": "empieza",
+   "answer": "sinónimo",
+   "alt": [],
+   "definition": "Palabra que significa lo mismo o casi lo mismo que otra.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "T-tigre",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "tigre",
+   "alt": [],
+   "definition": "Gran felino de pelaje naranja con rayas negras.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "T-tortuga",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "tortuga",
+   "alt": [],
+   "definition": "Reptil muy lento que lleva un caparazón.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "T-trueno",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "trueno",
+   "alt": [],
+   "definition": "Ruido fuerte que se escucha después de un rayo.",
+   "difficulty": "media"
+  },
+  {
+   "id": "T-telescopio",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "telescopio",
+   "alt": [],
+   "definition": "Instrumento para observar objetos muy lejanos, como estrellas y planetas.",
+   "difficulty": "media"
+  },
+  {
+   "id": "T-tormenta",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "tormenta",
+   "alt": [],
+   "definition": "Mal tiempo con lluvia fuerte, viento, rayos y truenos.",
+   "difficulty": "media"
+  },
+  {
+   "id": "T-tsunami",
+   "letter": "T",
+   "type": "empieza",
+   "answer": "tsunami",
+   "alt": [],
+   "definition": "Ola gigante provocada por un terremoto en el fondo del mar.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "U-uva",
+   "letter": "U",
+   "type": "empieza",
+   "answer": "uva",
+   "alt": [],
+   "definition": "Fruta pequeña que crece en racimos y con la que se hace el vino.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "U-uña",
+   "letter": "U",
+   "type": "empieza",
+   "answer": "uña",
+   "alt": [],
+   "definition": "Capa dura que cubre la punta de los dedos.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "U-unicornio",
+   "letter": "U",
+   "type": "empieza",
+   "answer": "unicornio",
+   "alt": [],
+   "definition": "Animal fantástico: un caballo con un cuerno en la frente.",
+   "difficulty": "media"
+  },
+  {
+   "id": "U-universo",
+   "letter": "U",
+   "type": "empieza",
+   "answer": "universo",
+   "alt": [],
+   "definition": "Todo lo que existe: planetas, estrellas, galaxias y el espacio entre ellos.",
+   "difficulty": "media"
+  },
+  {
+   "id": "U-urano",
+   "letter": "U",
+   "type": "empieza",
+   "answer": "Urano",
+   "alt": [],
+   "definition": "Séptimo planeta del sistema solar contando desde el Sol.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "V-vaca",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "vaca",
+   "alt": [],
+   "definition": "Animal de granja que da leche y hace «mu».",
+   "difficulty": "facil"
+  },
+  {
+   "id": "V-volcan",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "volcán",
+   "alt": [],
+   "definition": "Montaña que puede expulsar lava, cenizas y gases.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "V-verano",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "verano",
+   "alt": [],
+   "definition": "Estación más calurosa del año.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "V-violin",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "violín",
+   "alt": [],
+   "definition": "Instrumento de cuatro cuerdas que se toca con un arco.",
+   "difficulty": "media"
+  },
+  {
+   "id": "V-virus",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "virus",
+   "alt": [],
+   "definition": "Microorganismo que causa enfermedades como la gripe.",
+   "difficulty": "media"
+  },
+  {
+   "id": "V-vicuña",
+   "letter": "V",
+   "type": "empieza",
+   "answer": "vicuña",
+   "alt": [],
+   "definition": "Pariente silvestre de la llama que vive en los Andes y tiene una de las lanas más finas del mundo.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "X-taxi",
+   "letter": "X",
+   "type": "contiene",
+   "answer": "taxi",
+   "alt": [],
+   "definition": "Auto con chofer que se paga para viajar por la ciudad.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "X-examen",
+   "letter": "X",
+   "type": "contiene",
+   "answer": "examen",
+   "alt": [],
+   "definition": "Prueba que se toma en la escuela para evaluar lo aprendido.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "X-boxeo",
+   "letter": "X",
+   "type": "contiene",
+   "answer": "boxeo",
+   "alt": [],
+   "definition": "Deporte de combate en el que se pelea con guantes.",
+   "difficulty": "media"
+  },
+  {
+   "id": "X-xilofono",
+   "letter": "X",
+   "type": "empieza",
+   "answer": "xilófono",
+   "alt": [
+    "xilofón"
+   ],
+   "definition": "Instrumento de percusión con láminas que se golpean con palillos.",
+   "difficulty": "media"
+  },
+  {
+   "id": "X-oxigeno",
+   "letter": "X",
+   "type": "contiene",
+   "answer": "oxígeno",
+   "alt": [],
+   "definition": "Gas del aire que necesitamos respirar para vivir.",
+   "difficulty": "media"
+  },
+  {
+   "id": "X-xenofobia",
+   "letter": "X",
+   "type": "empieza",
+   "answer": "xenofobia",
+   "alt": [],
+   "definition": "Rechazo u odio hacia las personas extranjeras.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "Y-yema",
+   "letter": "Y",
+   "type": "empieza",
+   "answer": "yema",
+   "alt": [],
+   "definition": "Parte amarilla del huevo.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "Y-yogur",
+   "letter": "Y",
+   "type": "empieza",
+   "answer": "yogur",
+   "alt": [
+    "yogurt",
+    "yogourt"
+   ],
+   "definition": "Alimento cremoso hecho con leche fermentada.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "Y-yate",
+   "letter": "Y",
+   "type": "empieza",
+   "answer": "yate",
+   "alt": [],
+   "definition": "Embarcación de recreo o de lujo.",
+   "difficulty": "media"
+  },
+  {
+   "id": "Y-yerba",
+   "letter": "Y",
+   "type": "empieza",
+   "answer": "yerba",
+   "alt": [],
+   "definition": "Hojas secas y molidas con las que se prepara el mate.",
+   "difficulty": "media"
+  },
+  {
+   "id": "Y-yaguarete",
+   "letter": "Y",
+   "type": "empieza",
+   "answer": "yaguareté",
+   "alt": [],
+   "definition": "Nombre de origen guaraní del jaguar.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "Y-yodo",
+   "letter": "Y",
+   "type": "empieza",
+   "answer": "yodo",
+   "alt": [],
+   "definition": "Elemento químico cuya tintura se usaba para desinfectar heridas.",
+   "difficulty": "dificil"
+  },
+  {
+   "id": "Z-zapato",
+   "letter": "Z",
+   "type": "empieza",
+   "answer": "zapato",
+   "alt": [],
+   "definition": "Calzado que cubre el pie.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "Z-zanahoria",
+   "letter": "Z",
+   "type": "empieza",
+   "answer": "zanahoria",
+   "alt": [],
+   "definition": "Hortaliza naranja y alargada que, según los dibujos, comen los conejos.",
+   "difficulty": "facil"
+  },
+  {
+   "id": "Z-zorro",
+   "letter": "Z",
+   "type": "empieza",
+   "answer": "zorro",
+   "alt": [],
+   "definition": "Mamífero de cola peluda y hocico puntiagudo, famoso en los cuentos por ser astuto.",
+   "difficulty": "media"
+  },
+  {
+   "id": "Z-zoologico",
+   "letter": "Z",
+   "type": "empieza",
+   "answer": "zoológico",
+   "alt": [
+    "zoo"
+   ],
+   "definition": "Lugar donde se exhiben animales de todo el mundo.",
+   "difficulty": "media"
+  },
+  {
+   "id": "Z-zapallo",
+   "letter": "Z",
+   "type": "empieza",
+   "answer": "zapallo",
+   "alt": [],
+   "definition": "Hortaliza de cáscara dura y pulpa naranja con la que se hace puré; en España la llaman calabaza.",
+   "difficulty": "media"
+  },
+  {
+   "id": "Z-zodiaco",
+   "letter": "Z",
+   "type": "empieza",
+   "answer": "zodíaco",
+   "alt": [
+    "zodiaco"
+   ],
+   "definition": "Franja del cielo dividida en doce signos, como Aries o Leo.",
+   "difficulty": "dificil"
+  }
+ ]
+}
