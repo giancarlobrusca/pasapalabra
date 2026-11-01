@@ -17,7 +17,10 @@ npm run build && npm run preview   # build de producción en http://localhost:41
 npm run typecheck
 npm test           # vitest: normalización, turnos/estados, selección y banco
 npm run e2e        # Playwright contra build + preview (desktop 1920x1080 y mobile 390x844 DPR 2) + capturas
+PW_BASE_URL=https://pasapalabra-psi.vercel.app npx playwright test --project desktop --project mobile  # contra producción
 ```
+
+Producción: https://pasapalabra-psi.vercel.app (Vercel, team giancarlo-bruscas-projects).
 
 ## Atajos (modo presentador)
 
