@@ -2,12 +2,12 @@ import { useEffect, useMemo, useState } from 'react';
 import bankData from './data/bank.json';
 import type { GameState, Question } from './lib/types';
 import { LETTERS } from './lib/letters';
-import { selectQuestions } from './lib/select';
+import { availability, selectQuestions, updateHistory } from './lib/select';
 import { createGame } from './lib/game';
 import { mulberry32 } from './lib/rng';
-import { loadCustom, loadSettings, saveCustom, saveSettings } from './lib/storage';
+import { loadCustom, loadHistory, loadSettings, saveCustom, saveHistory, saveSettings } from './lib/storage';
 import { setMuted } from './lib/sound';
-import { DEFAULT_SETTINGS, type Settings } from './settings';
+import { DEFAULT_SETTINGS, MAX_PLAYERS, type Settings } from './settings';
 import Setup from './components/Setup';
 import GameScreen from './components/GameScreen';
 import FinalScreen from './components/FinalScreen';
@@ -24,7 +24,11 @@ function initialSeed(): number {
 
 export default function App() {
   const [screen, setScreen] = useState<Screen>('setup');
-  const [settings, setSettings] = useState<Settings>(() => loadSettings(DEFAULT_SETTINGS));
+  const [settings, setSettings] = useState<Settings>(() => {
+    const s = loadSettings(DEFAULT_SETTINGS);
+    return { ...s, names: s.names.slice(0, MAX_PLAYERS), categories: Array.isArray(s.categories) ? s.categories : [] };
+  });
+  const [history, setHistory] = useState<Set<string>>(() => loadHistory());
   const [custom, setCustom] = useState<Question[]>(() => loadCustom());
   const [game, setGame] = useState<GameState | null>(null);
   const [missing, setMissing] = useState<string[]>([]);
@@ -40,15 +44,31 @@ export default function App() {
       players: names.length,
       difficulty: settings.difficulty,
       custom: settings.custom,
+      categories: settings.categories,
+      history,
       rng,
     });
     if (sel.roscos[0].length === 0) {
       window.alert('No hay preguntas para armar el rosco. Cargá preguntas propias o elegí otra opción en «Mis preguntas».');
       return;
     }
+    const nextHistory = updateHistory(history, sel);
+    setHistory(nextHistory);
+    saveHistory(nextHistory);
     setMissing(sel.missing);
     setGame(createGame(names, sel.roscos, settings.seconds * 1000));
     setScreen('game');
+  };
+
+  const avail = useMemo(
+    () => availability(BANK, custom, settings.custom, settings.categories, history, LETTERS),
+    [custom, settings.custom, settings.categories, history],
+  );
+
+  const resetHistory = () => {
+    const empty = new Set<string>();
+    setHistory(empty);
+    saveHistory(empty);
   };
 
   const updateCustom = (qs: Question[]) => {
@@ -66,6 +86,9 @@ export default function App() {
           onEditor={() => setScreen('editor')}
           customCount={custom.length}
           bankCount={BANK.length}
+          available={avail}
+          historyCount={history.size}
+          onResetHistory={resetHistory}
         />
       )}
       {screen === 'game' && game && (

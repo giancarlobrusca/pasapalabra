@@ -6,6 +6,7 @@ import { isCorrectAnswer, isPassWord } from '../lib/normalize';
 import { sfx } from '../lib/sound';
 import type { Mode } from '../settings';
 import Rosco from './Rosco';
+import { CATEGORIES } from '../lib/categories';
 
 interface Props {
   initial: GameState;
@@ -32,6 +33,7 @@ export default function GameScreen({ initial, mode, sound, missing, onToggleSoun
   const slot = player.slots[player.index];
   const q = slot?.question;
   const multi = state.players.length > 1;
+  const cat = q?.custom ? { id: 'propia', icon: '⭐', label: 'Propia' } : CATEGORIES.find((c) => c.id === q?.category);
 
   // Temporizador: solo corre en fase "playing".
   useEffect(() => {
@@ -143,7 +145,8 @@ export default function GameScreen({ initial, mode, sound, missing, onToggleSoun
 
   return (
     <main className={`game mode-${mode}`} data-testid="game" data-phase={state.phase}>
-      <header className="scoreboard">
+      <header className={`scoreboard ${state.players.length > 4 ? 'many' : ''}`} data-players={state.players.length}>
+        <div className="chips">
         {state.players.map((p, i) => {
           const s = scoreOf(p);
           return (
@@ -160,6 +163,7 @@ export default function GameScreen({ initial, mode, sound, missing, onToggleSoun
             </div>
           );
         })}
+        </div>
         <div className="header-tools">
           <button className="icon-btn" aria-label={sound ? 'Silenciar' : 'Activar sonido'} onClick={onToggleSound}>
             {sound ? '🔊' : '🔇'}
@@ -211,6 +215,11 @@ export default function GameScreen({ initial, mode, sound, missing, onToggleSoun
                 <div className="q-prompt" data-testid="q-prompt">
                   {prompt(slot.letter, q.type)}:
                 </div>
+                {cat && (
+                  <span className="q-cat" data-testid="q-cat" data-cat={cat.id}>
+                    {cat.icon} {cat.label}
+                  </span>
+                )}
                 <div className="q-def" data-testid="q-def">
                   {/* Durante el cartel de turno o la pausa no se deja leer la próxima definición. */}
                   {state.phase === 'ready' || state.phase === 'paused' ? '· · ·' : q.definition}

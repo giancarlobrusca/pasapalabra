@@ -1,5 +1,6 @@
-import type { CustomUsage, DifficultyChoice } from '../lib/types';
-import type { Mode, Settings } from '../settings';
+import type { Category, CustomUsage, DifficultyChoice } from '../lib/types';
+import { CATEGORIES } from '../lib/categories';
+import { MAX_PLAYERS, type Mode, type Settings } from '../settings';
 import Logo from './Logo';
 
 interface Props {
@@ -9,6 +10,9 @@ interface Props {
   onEditor: () => void;
   customCount: number;
   bankCount: number;
+  available: { total: number; unused: number; minPerLetter: number };
+  historyCount: number;
+  onResetHistory: () => void;
 }
 
 const TIMES = [60, 90, 120, 150, 180, 240];
@@ -41,7 +45,24 @@ function Segmented<T extends string | number>(props: {
   );
 }
 
-export default function Setup({ settings, onChange, onStart, onEditor, customCount, bankCount }: Props) {
+export default function Setup({
+  settings,
+  onChange,
+  onStart,
+  onEditor,
+  customCount,
+  bankCount,
+  available,
+  historyCount,
+  onResetHistory,
+}: Props) {
+  const toggleCategory = (c: Category) => {
+    const cur = settings.categories;
+    const next = cur.includes(c) ? cur.filter((x) => x !== c) : [...cur, c];
+    // Si quedan todas marcadas, es lo mismo que "Todas".
+    set('categories', next.length === CATEGORIES.length ? [] : next);
+  };
+  const players = settings.names.length;
   const set = <K extends keyof Settings>(k: K, v: Settings[K]) => onChange({ ...settings, [k]: v });
   const setCount = (n: number) => {
     const names = settings.names.slice(0, n);
@@ -61,10 +82,10 @@ export default function Setup({ settings, onChange, onStart, onEditor, customCou
           label="Jugadores / equipos"
           testid="players-count"
           value={settings.names.length}
-          options={[1, 2, 3, 4].map((n) => ({ value: n, label: String(n) }))}
+          options={Array.from({ length: MAX_PLAYERS }, (_, i) => i + 1).map((n) => ({ value: n, label: String(n) }))}
           onChange={setCount}
         />
-        <div className="names">
+        <div className={`names ${players > 4 ? 'names-many' : ''}`}>
           {settings.names.map((name, i) => (
             <label key={i} className="name-input">
               <span className={`dot p${i}`} aria-hidden />
@@ -133,6 +154,57 @@ export default function Setup({ settings, onChange, onStart, onEditor, customCou
           onChange={(v) => set('custom', v)}
         />
 
+        <fieldset className="field">
+          <legend>Categorías</legend>
+          <div className="chips-cat" data-testid="categories">
+            <button
+              type="button"
+              aria-pressed={settings.categories.length === 0}
+              className={settings.categories.length === 0 ? 'on' : ''}
+              onClick={() => set('categories', [])}
+            >
+              ✨ Todas
+            </button>
+            {CATEGORIES.map((c) => {
+              const on = settings.categories.includes(c.id);
+              return (
+                <button
+                  key={c.id}
+                  type="button"
+                  aria-pressed={on}
+                  className={on ? 'on' : ''}
+                  data-cat={c.id}
+                  onClick={() => toggleCategory(c.id)}
+                >
+                  {c.icon} {c.label}
+                </button>
+              );
+            })}
+          </div>
+        </fieldset>
+        <div className="availability" data-testid="availability">
+          <span>
+            <b data-testid="avail-total">{available.total}</b> preguntas disponibles ·{' '}
+            <b data-testid="avail-unused">{available.unused}</b> sin usar todavía
+          </span>
+          <button
+            type="button"
+            className="btn btn-ghost btn-sm"
+            data-testid="reset-history"
+            disabled={historyCount === 0}
+            onClick={() => {
+              if (window.confirm('¿Reiniciar el historial? Las preguntas ya jugadas vuelven a estar disponibles.')) onResetHistory();
+            }}
+          >
+            ↺ Reiniciar historial ({historyCount})
+          </button>
+        </div>
+        {available.minPerLetter < players && (
+          <p className="hint warn" data-testid="avail-warn">
+            Con estas categorías hay letras con menos de {players} preguntas: se completan con otras categorías.
+          </p>
+        )}
+
         <label className="toggle">
           <input type="checkbox" checked={settings.sound} onChange={(e) => set('sound', e.target.checked)} />
           <span>Sonidos</span>
@@ -147,7 +219,7 @@ export default function Setup({ settings, onChange, onStart, onEditor, customCou
           ✏️ Editor de preguntas
         </button>
       </div>
-      <p className="foot">{bankCount} preguntas en el banco · 25 letras (sin K ni W, como en el programa)</p>
+      <p className="foot">{bankCount} preguntas en el banco · 25 letras (sin K ni W, como en el programa) · hasta {MAX_PLAYERS} jugadores</p>
     </main>
   );
 }

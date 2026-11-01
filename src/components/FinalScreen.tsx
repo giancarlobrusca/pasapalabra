@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import type { GameState } from '../lib/types';
 import { scoreOf, winners } from '../lib/game';
 import { prompt } from '../lib/letters';
@@ -17,7 +17,12 @@ const STATUS_LABEL = { correct: '✓', wrong: '✗', passed: '–', pending: '�
 export default function FinalScreen({ game, onRematch, onHome }: Props) {
   const multi = game.players.length > 1;
   const win = winners(game);
-  useEffect(() => sfx.fanfare(), []);
+  const rematchRef = useRef<HTMLButtonElement>(null);
+  useEffect(() => {
+    sfx.fanfare();
+    // Foco para teclado/control remoto sin bajar la pantalla (el ganador queda a la vista).
+    rematchRef.current?.focus({ preventScroll: true });
+  }, []);
 
   const title = !multi
     ? `${scoreOf(game.players[0]).correct} de ${game.players[0].slots.length}`
@@ -81,7 +86,7 @@ export default function FinalScreen({ game, onRematch, onHome }: Props) {
       </div>
 
       <div className="setup-actions">
-        <button className="btn btn-primary btn-xl" data-testid="rematch" onClick={onRematch} autoFocus>
+        <button className="btn btn-primary btn-xl" data-testid="rematch" onClick={onRematch} ref={rematchRef}>
           🔁 Revancha (preguntas nuevas)
         </button>
         <button className="btn btn-ghost" data-testid="home" onClick={onHome}>

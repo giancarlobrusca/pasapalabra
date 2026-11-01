@@ -1,9 +1,29 @@
 import type { Question } from './types';
 import { ALL_LETTERS } from './letters';
 import { matchesLetter } from './normalize';
+import { isCategory } from './categories';
 
 const CUSTOM_KEY = 'pasapalabra.custom.v1';
 const SETTINGS_KEY = 'pasapalabra.settings.v1';
+const HISTORY_KEY = 'pasapalabra.history.v1';
+
+export function loadHistory(): Set<string> {
+  try {
+    const raw = localStorage.getItem(HISTORY_KEY);
+    const arr: unknown = raw ? JSON.parse(raw) : [];
+    return new Set(Array.isArray(arr) ? arr.filter((x): x is string => typeof x === 'string') : []);
+  } catch {
+    return new Set();
+  }
+}
+
+export function saveHistory(h: ReadonlySet<string>): void {
+  try {
+    localStorage.setItem(HISTORY_KEY, JSON.stringify([...h]));
+  } catch {
+    /* sin espacio o modo privado: ignoramos */
+  }
+}
 
 export function loadCustom(): Question[] {
   try {
@@ -76,5 +96,6 @@ export function validateQuestion(item: unknown): Question | string {
   }
   const alt = Array.isArray(o.alt) ? o.alt.map(String).filter(Boolean) : [];
   const id = typeof o.id === 'string' && o.id ? o.id : `custom-${Math.random().toString(36).slice(2, 10)}`;
-  return { id, letter, type, answer, alt, definition, difficulty, custom: true };
+  const category = isCategory(o.category) ? o.category : undefined;
+  return { id, letter, type, answer, alt, definition, difficulty, category, custom: true };
 }

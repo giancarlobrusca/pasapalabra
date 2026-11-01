@@ -1,5 +1,15 @@
 export type Difficulty = 'facil' | 'media' | 'dificil';
 export type QuestionType = 'empieza' | 'contiene';
+export type Category =
+  | 'general'
+  | 'cine'
+  | 'musica'
+  | 'deportes'
+  | 'geografia'
+  | 'comida'
+  | 'ciencia'
+  | 'historia'
+  | 'naturaleza';
 
 export interface Question {
   id: string;
@@ -9,6 +19,8 @@ export interface Question {
   alt?: string[];
   definition: string;
   difficulty: Difficulty;
+  /** Las del banco siempre tienen categoría; las propias pueden no tenerla. */
+  category?: Category;
   custom?: boolean;
 }
 
